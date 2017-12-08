@@ -1,0 +1,1196 @@
+﻿Log file open, 12/07/17 19:27:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Mypaper
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(264945967) SRandInit(264945967).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.181592
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3754814
+LogInit: Engine Version: 4.18.1-3754814+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.07-10.27.46:301][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-10.27.46:301][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.07-10.27.46:314][  0]LogInit: Computer: DESKTOP-CU9JKOV
+[2017.12.07-10.27.46:314][  0]LogInit: User: eowls
+[2017.12.07-10.27.46:314][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.07-10.27.46:314][  0]LogInit: High frequency timer resolution =3.234374 MHz
+[2017.12.07-10.27.46:314][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.07-10.27.46:314][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.07-10.27.46:314][  0]LogMemory: Process Physical Memory: 272.99 MB used, 272.99 MB peak
+[2017.12.07-10.27.46:314][  0]LogMemory: Process Virtual Memory: 271.66 MB used, 271.66 MB peak
+[2017.12.07-10.27.46:314][  0]LogMemory: Physical Memory: 5405.07 MB used,  10926.86 MB free, 16331.93 MB total
+[2017.12.07-10.27.46:314][  0]LogMemory: Virtual Memory: 630.66 MB used,  10926.86 MB free, 134217728.00 MB total
+[2017.12.07-10.27.46:522][  0]LogInit: Using OS detected language (ko-KR).
+[2017.12.07-10.27.46:522][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.12.07-10.27.46:529][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.12.07-10.27.46:806][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.07-10.27.47:171][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.07-10.27.47:250][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.12.07-10.27.47:250][  0]LogD3D11RHI:       4058/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.07-10.27.47:252][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.07-10.27.47:252][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.07-10.27.47:253][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.07-10.27.47:258][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.07-10.27.47:258][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.07-10.27.47:258][  0]LogWindows: EnumDisplayDevices:
+[2017.12.07-10.27.47:259][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.12.07-10.27.47:259][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.07-10.27.47:260][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.07-10.27.47:260][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.07-10.27.47:260][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.07-10.27.47:260][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.12.07-10.27.47:260][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.07-10.27.47:260][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.07-10.27.47:260][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2017.12.07-10.27.47:292][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.07-10.27.47:303][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.07-10.27.47:353][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Intermediate/Shaders/WorkingDirectory/6500/).
+[2017.12.07-10.27.47:353][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/eowls/AppData/Local/Temp/UnrealShaderWorkingDir/3E41B8114DC84DB81615EA92F8826060/'.
+[2017.12.07-10.27.47:353][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.07-10.27.48:399][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.07-10.27.48:471][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.07-10.27.48:534][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.07-10.27.48:599][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.07-10.27.48:669][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.07-10.27.48:734][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.07-10.27.48:800][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.07-10.27.48:884][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.07-10.27.48:948][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.07-10.27.49:011][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.07-10.27.49:080][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.07-10.27.49:159][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.07-10.27.49:226][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.07-10.27.49:310][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.07-10.27.49:451][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.07-10.27.49:451][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.07-10.27.49:517][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.07-10.27.49:570][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.07-10.27.49:683][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.07-10.27.49:713][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.07-10.27.49:777][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.07-10.27.49:843][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.07-10.27.49:910][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.07-10.27.49:989][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.07-10.27.49:989][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.07-10.27.50:611][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.07-10.27.50:708][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/eowls/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.07-10.27.50:708][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/eowls/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.07-10.27.50:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.07-10.27.50:708][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.07-10.27.50:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.07-10.27.50:708][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.07-10.27.50:723][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.07-10.27.50:736][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eowls/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.07-10.27.50:746][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.07-10.27.50:746][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.07-10.27.50:747][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-10.27.50:747][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-10.27.51:147][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-10.27.51:566][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.07-10.27.51:620][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.07-10.27.51:620][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.07-10.27.51:620][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.07-10.27.51:620][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.07-10.27.51:621][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.07-10.27.51:655][  0]LogNetVersion: Mypaper , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1259759705)
+[2017.12.07-10.27.51:853][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.12.07-10.27.52:702][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.223728 seconds
+[2017.12.07-10.27.52:708][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.07-10.27.52:708][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.12.07-10.27.52:708][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.07-10.27.52:779][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.07-10.27.56:603][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.07-10.27.56:661][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.07-10.27.57:595][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.07-10.27.58:179][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.07-10.27.58:179][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.07-10.27.58:262][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.07-10.27.58:342][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.07-10.27.59:569][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.07-10.27.59:977][  0]LogOcInput: OculusInput pre-init called
+[2017.12.07-10.28.00:366][  0]LogEngine: Initializing Engine...
+[2017.12.07-10.28.00:369][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.07-10.28.00:632][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.07-10.28.00:632][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.07-10.28.00:816][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.07-10.28.00:903][  0]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-10.28.00:935][  0]LogInit: FAudioDevice initialized.
+[2017.12.07-10.28.01:022][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/eowls/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.07-10.28.01:035][  0]LogInit: Texture streaming: Enabled
+[2017.12.07-10.28.01:178][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.07-10.28.01:369][  0]LogInit: Transaction tracking system initialized
+[2017.12.07-10.28.01:809][  0]BlueprintLog: New page: 에디터 로드
+[2017.12.07-10.28.03:053][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.12.07-10.28.04:174][  0]LogConsoleResponse: Display: 
+[2017.12.07-10.28.04:475][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.07-10.28.04:475][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.07-10.28.04:475][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.07-10.28.04:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/' took 0.03s
+[2017.12.07-10.28.06:227][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.07-10.28.06:227][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-10.28.06:230][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.07-10.28.06:293][  0]MapCheck: New page: 맵 체크
+[2017.12.07-10.28.06:293][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.07-10.28.06:796][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.12.07-10.28.06:808][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-10.28.06:820][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-10.28.06:912][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 92.256ms.
+[2017.12.07-10.28.06:912][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.685
+[2017.12.07-10.28.06:998][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.12.07-10.28.07:124][  0]LogCollectionManager: Loaded 0 collections in 0.002234 seconds
+[2017.12.07-10.28.07:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Collections/' took 0.01s
+[2017.12.07-10.28.07:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Developers/eowls/Collections/' took 0.01s
+[2017.12.07-10.28.07:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Collections/' took 0.01s
+[2017.12.07-10.28.07:238][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.07-10.28.07:247][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2363 classes and 519 folders.
+[2017.12.07-10.28.07:340][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.12.07-10.28.07:461][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.07-10.28.07:527][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.12.07-10.28.07:660][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.12.07-10.28.07:660][  0]LogLoad: (Engine Initialization) Total time: 25.67 seconds
+[2017.12.07-10.28.07:660][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.07-10.28.07:660][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.07-10.28.07:688][  0]LogAssetRegistry: Asset discovery search completed in 15.8562 seconds
+[2017.12.07-10.28.07:690][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.07-10.28.07:690][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2017.12.07-10.28.07:692][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.07-10.28.07:701][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-10.28.07:705][  0]LogSlate: Took 0.002888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.12.07-10.28.07:706][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.07-10.28.07:712][  0]LogSlate: Took 0.002524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.07-10.28.07:804][  0]LogSlate: Took 0.001120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-10.28.07:861][  2]LogRenderer: Reallocating scene render targets to support 840x500 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-10.28.21:872][428]Cmd: MAP LOAD FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-10.28.21:878][428]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-10.28.21:888][428]LightingResults: New page: 라이팅 빌드
+[2017.12.07-10.28.21:889][428]LoadErrors: New page: 맵 로드중: My2dmap.umap
+[2017.12.07-10.28.21:893][428]MapCheck: New page: 맵 체크
+[2017.12.07-10.28.21:893][428]LightingResults: New page: 라이팅 빌드
+[2017.12.07-10.28.21:934][428]LogAIModule: Creating AISystem for world My2dmap
+[2017.12.07-10.28.21:944][428]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-10.28.21:973][428]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-10.28.22:082][428]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 109.046ms.
+[2017.12.07-10.28.22:082][428]LogFileHelpers: Loading map 'My2dmap' took 0.211
+[2017.12.07-10.38.02:849][ 66]LogTexture: Display: 텍스처 빌드: 2DCharacter_IdleAnimAtlas (AutoDXT, 1024X1024)
+[2017.12.07-10.38.02:921][ 66]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.12.07-10.39.07:548][ 47]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2017.12.07-10.39.23:816][156]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-10.39.33:081][183]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.012
+[2017.12.07-10.39.33:086][183]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/2DCharacter_IdleAnimAtlas_Sprite] ([1] browsable assets)...
+[2017.12.07-10.39.33:096][183]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Textures/2DCharacter_IdleAnimAtlas_Sprite.2DCharacter_IdleAnimAtlas_Sprite]
+[2017.12.07-10.39.33:096][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/2DCharacter_IdleAnimAtlas_Sprite]
+[2017.12.07-10.39.33:111][183]LogSavePackage: Save=9.72ms
+[2017.12.07-10.39.33:111][183]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_SpriteA705A7A441C1B6752457A88C5EAFF91E.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Textures/2DCharacter_IdleAnimAtlas_Sprite_Auto1.uasset'
+[2017.12.07-10.39.33:116][183]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Textures/2DCharacter_IdleAnimAtlas_Sprite_Auto1.uasset
+[2017.12.07-10.39.33:116][183]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.12.07-10.40.18:740][581]LogSlate: Took 0.006322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.07-10.41.08:187][751]LogSavePackage: Save=7.03ms
+[2017.12.07-10.41.08:187][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_SpriteEFA2FCBE499ABBBB0D6924B35CA7F373.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_0.uasset'
+[2017.12.07-10.41.08:197][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_0.uasset
+[2017.12.07-10.41.08:218][751]LogSavePackage: Save=6.75ms
+[2017.12.07-10.41.08:218][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite4DDF1C0D408540CF774A4F8F51213505.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_1.uasset'
+[2017.12.07-10.41.08:224][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_1.uasset
+[2017.12.07-10.41.08:248][751]LogSavePackage: Save=7.13ms
+[2017.12.07-10.41.08:248][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite4693227F41A2097C8A70768B9BD9F8B6.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_2.uasset'
+[2017.12.07-10.41.08:255][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_2.uasset
+[2017.12.07-10.41.08:278][751]LogSavePackage: Save=8.31ms
+[2017.12.07-10.41.08:278][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite50BABD3145FA2B655C7B4C9630796DCF.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_3.uasset'
+[2017.12.07-10.41.08:284][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_3.uasset
+[2017.12.07-10.41.08:303][751]LogSavePackage: Save=6.68ms
+[2017.12.07-10.41.08:303][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_SpriteBBC32FA54D0DEE5B550DA8BA7339F16C.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_4.uasset'
+[2017.12.07-10.41.08:313][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_4.uasset
+[2017.12.07-10.41.08:335][751]LogSavePackage: Save=7.08ms
+[2017.12.07-10.41.08:335][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite4297B35243B0F3A5001891B892F93720.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_5.uasset'
+[2017.12.07-10.41.08:341][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_5.uasset
+[2017.12.07-10.41.08:378][751]LogSavePackage: Save=6.68ms
+[2017.12.07-10.41.08:378][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_SpriteDFD94E714D66C8493440DC8DFCF62932.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_6.uasset'
+[2017.12.07-10.41.08:384][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_6.uasset
+[2017.12.07-10.41.08:406][751]LogSavePackage: Save=8.45ms
+[2017.12.07-10.41.08:406][751]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite4E6291674D6D3C0CE3E916BEE16F7FAC.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_7.uasset'
+[2017.12.07-10.41.08:412][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_7.uasset
+[2017.12.07-10.41.26:198][ 50]LogRenderer: Reallocating scene render targets to support 992x544 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-10.41.36:947][269]LogRenderer: Reallocating scene render targets to support 992x572 Format 10 NumSamples 1 (Frame:197).
+[2017.12.07-10.41.36:997][269]LogRenderer: Reallocating scene render targets to support 992x584 Format 10 NumSamples 1 (Frame:198).
+[2017.12.07-10.41.37:044][269]LogRenderer: Reallocating scene render targets to support 992x588 Format 10 NumSamples 1 (Frame:199).
+[2017.12.07-10.41.49:737][398]LogRenderer: Reallocating scene render targets to support 996x592 Format 10 NumSamples 1 (Frame:849).
+[2017.12.07-10.41.49:786][398]LogRenderer: Reallocating scene render targets to support 1000x600 Format 10 NumSamples 1 (Frame:850).
+[2017.12.07-10.41.49:828][398]LogRenderer: Reallocating scene render targets to support 1004x604 Format 10 NumSamples 1 (Frame:851).
+[2017.12.07-10.41.49:886][398]LogRenderer: Reallocating scene render targets to support 1008x604 Format 10 NumSamples 1 (Frame:852).
+[2017.12.07-10.41.49:956][398]LogRenderer: Reallocating scene render targets to support 1012x612 Format 10 NumSamples 1 (Frame:853).
+[2017.12.07-10.41.50:012][398]LogRenderer: Reallocating scene render targets to support 1024x616 Format 10 NumSamples 1 (Frame:854).
+[2017.12.07-10.41.50:112][398]LogRenderer: Reallocating scene render targets to support 1028x620 Format 10 NumSamples 1 (Frame:855).
+[2017.12.07-10.43.05:537][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_1" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_1.uasset" SILENT=true
+[2017.12.07-10.43.05:547][756]LogSavePackage: Save=7.35ms
+[2017.12.07-10.43.05:547][756]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_173B357A0442F391DBF3AE282EB841020.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_1.uasset'
+[2017.12.07-10.43.05:554][756]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_1.uasset
+[2017.12.07-10.43.09:769][141]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
+[2017.12.07-10.43.49:974][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_8" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset" SILENT=true
+[2017.12.07-10.43.49:983][900]LogSavePackage: Save=6.83ms
+[2017.12.07-10.43.49:983][900]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_82A1DC31540174FB10E2DE6A8C91C0AE4.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset'
+[2017.12.07-10.43.49:989][900]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset
+[2017.12.07-10.44.41:106][791]LogSavePackage: Save=6.90ms
+[2017.12.07-10.44.41:106][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite25835F934956E2C3CDDC1185750ECF46.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_0.uasset'
+[2017.12.07-10.44.41:112][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_0.uasset
+[2017.12.07-10.44.41:134][791]LogSavePackage: Save=7.62ms
+[2017.12.07-10.44.41:134][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite93BD75E14165A89BB5995E8947943EF8.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_1.uasset'
+[2017.12.07-10.44.41:140][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_1.uasset
+[2017.12.07-10.44.41:160][791]LogSavePackage: Save=7.28ms
+[2017.12.07-10.44.41:160][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite8245679B4CAA2AAE84BD87A29E96C675.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_2.uasset'
+[2017.12.07-10.44.41:166][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_2.uasset
+[2017.12.07-10.44.41:191][791]LogSavePackage: Save=9.94ms
+[2017.12.07-10.44.41:191][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite62E7DEF5450806F375929DBF464FEC89.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_3.uasset'
+[2017.12.07-10.44.41:202][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_3.uasset
+[2017.12.07-10.44.41:224][791]LogSavePackage: Save=7.60ms
+[2017.12.07-10.44.41:224][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_SpriteB2C96C08474ED419D14364933B7785FD.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_4.uasset'
+[2017.12.07-10.44.41:230][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_4.uasset
+[2017.12.07-10.44.41:249][791]LogSavePackage: Save=7.38ms
+[2017.12.07-10.44.41:249][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite2331828D43C8AE34A5EF7FA9A7883A2F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_5.uasset'
+[2017.12.07-10.44.41:255][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_5.uasset
+[2017.12.07-10.44.41:275][791]LogSavePackage: Save=7.39ms
+[2017.12.07-10.44.41:275][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite83A025E44306280EBE0B6F8DEC0B84AE.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_6.uasset'
+[2017.12.07-10.44.41:281][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_6.uasset
+[2017.12.07-10.44.41:302][791]LogSavePackage: Save=6.67ms
+[2017.12.07-10.44.41:302][791]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_IdleAnimAtlas_Sprite709763CA4CF1620D1EF9C2B1C7962BD2.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_7.uasset'
+[2017.12.07-10.44.41:308][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_IdleAnimAtlas_Sprite_7.uasset
+[2017.12.07-10.45.41:922][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_1" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_1.uasset" SILENT=true
+[2017.12.07-10.45.41:932][ 58]LogSavePackage: Save=7.42ms
+[2017.12.07-10.45.41:932][ 58]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_1D91F9256409E5334ADB43292585E05D3.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_1.uasset'
+[2017.12.07-10.45.41:938][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_1.uasset
+[2017.12.07-10.45.55:091][563]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
+[2017.12.07-10.46.11:690][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_2" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_2.uasset" SILENT=true
+[2017.12.07-10.46.11:700][ 41]LogSavePackage: Save=7.11ms
+[2017.12.07-10.46.11:700][ 41]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_20FD4C7B84FB82318DC6EFB8F193062BD.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_2.uasset'
+[2017.12.07-10.46.11:707][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_2.uasset
+[2017.12.07-10.46.18:053][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_3" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_3.uasset" SILENT=true
+[2017.12.07-10.46.18:062][720]LogSavePackage: Save=6.99ms
+[2017.12.07-10.46.18:062][720]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_3C3A6A4D8460B479FBA0584A95F99C8EC.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_3.uasset'
+[2017.12.07-10.46.18:069][720]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_3.uasset
+[2017.12.07-10.46.22:815][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_4" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_4.uasset" SILENT=true
+[2017.12.07-10.46.22:823][217]LogSavePackage: Save=6.35ms
+[2017.12.07-10.46.22:823][217]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_48698B0DD4D1EEE97324AB1A8B8DEBD1F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_4.uasset'
+[2017.12.07-10.46.22:829][217]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_4.uasset
+[2017.12.07-10.47.13:474][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_5" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_5.uasset" SILENT=true
+[2017.12.07-10.47.13:483][668]LogSavePackage: Save=7.12ms
+[2017.12.07-10.47.13:483][668]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_57B661D934EF00E3768B03B9ED7C4DE8F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_5.uasset'
+[2017.12.07-10.47.13:491][668]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_5.uasset
+[2017.12.07-10.48.49:923][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_8" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset" SILENT=true
+[2017.12.07-10.48.49:933][737]LogSavePackage: Save=7.25ms
+[2017.12.07-10.48.49:933][737]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_80AD34D16482F5435270D838518A3D89F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset'
+[2017.12.07-10.48.49:940][737]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset
+[2017.12.07-10.49.03:280][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_7" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_7.uasset" SILENT=true
+[2017.12.07-10.49.03:290][ 41]LogSavePackage: Save=6.96ms
+[2017.12.07-10.49.03:290][ 41]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_7A7490CE34BD0226303BE2D918B322902.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_7.uasset'
+[2017.12.07-10.49.03:296][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_7.uasset
+[2017.12.07-10.49.16:688][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_6" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_6.uasset" SILENT=true
+[2017.12.07-10.49.16:697][338]LogSavePackage: Save=7.11ms
+[2017.12.07-10.49.16:698][338]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_68E4CC9BC4C6F9648596CA1B1B49A35E5.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_6.uasset'
+[2017.12.07-10.49.16:704][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_6.uasset
+[2017.12.07-10.49.20:118][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_6" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_6.uasset" SILENT=true
+[2017.12.07-10.49.20:130][664]LogSavePackage: Save=3.61ms
+[2017.12.07-10.49.20:130][664]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_650EC6CF444E3FD696CE480B5EC43413B.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_6.uasset'
+[2017.12.07-10.49.20:133][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_6.uasset
+[2017.12.07-11.02.54:275][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idle_8" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset" SILENT=true
+[2017.12.07-11.02.54:288][161]LogSavePackage: Save=3.71ms
+[2017.12.07-11.02.54:288][161]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idle_8B95C7CF1483725D3433682AE2B4B3698.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset'
+[2017.12.07-11.02.54:291][161]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idle_8.uasset
+[2017.12.07-11.03.13:231][416]LogContentBrowser: Verbose: The majority of assets in the view are of type: Texture2D
+[2017.12.07-11.04.01:687][357]LogTexture: Display: 텍스처 빌드: 2DCharacter_RunAnimAtlas (AutoDXT, 1024X1024)
+[2017.12.07-11.04.37:706][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.022
+[2017.12.07-11.04.37:723][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/2DCharacter_RunAnimAtlas_Sprite] ([1] browsable assets)...
+[2017.12.07-11.04.37:734][ 69]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Textures/2DCharacter_RunAnimAtlas_Sprite.2DCharacter_RunAnimAtlas_Sprite]
+[2017.12.07-11.04.37:734][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/2DCharacter_RunAnimAtlas_Sprite]
+[2017.12.07-11.04.37:754][ 69]LogSavePackage: Save=13.21ms
+[2017.12.07-11.04.37:754][ 69]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_RunAnimAtlas_Sprite_A8A5496B49CB413C782F83A7FFFAA578.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Textures/2DCharacter_RunAnimAtlas_Sprite_Auto2.uasset'
+[2017.12.07-11.04.37:760][ 69]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Textures/2DCharacter_RunAnimAtlas_Sprite_Auto2.uasset
+[2017.12.07-11.04.37:760][ 69]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.12.07-11.04.42:965][314]LogSavePackage: Save=7.87ms
+[2017.12.07-11.04.42:966][314]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/2DCharacter_RunAnimAtlas_Sprite58FD9D714892871F8298ACAAA1B23FE8.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_RunAnimAtlas_Sprite.uasset'
+[2017.12.07-11.04.42:973][314]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/2DCharacter_RunAnimAtlas_Sprite.uasset
+[2017.12.07-11.05.31:804][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_X" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_X.uasset" SILENT=true
+[2017.12.07-11.05.31:814][141]LogSavePackage: Save=7.88ms
+[2017.12.07-11.05.31:814][141]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_X2167DD12476318E7C2B7788360EA3EC0.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_X.uasset'
+[2017.12.07-11.05.31:820][141]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_X.uasset
+[2017.12.07-11.07.31:782][197]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
+[2017.12.07-11.08.59:729][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_1" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_1.uasset" SILENT=true
+[2017.12.07-11.08.59:740][727]LogSavePackage: Save=8.31ms
+[2017.12.07-11.08.59:740][727]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_15C99B8154FF62DFDB113BB9FDBD319BB.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_1.uasset'
+[2017.12.07-11.08.59:746][727]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_1.uasset
+[2017.12.07-11.09.11:607][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_2" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_2.uasset" SILENT=true
+[2017.12.07-11.09.11:618][965]LogSavePackage: Save=8.04ms
+[2017.12.07-11.09.11:618][965]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_27A24CE1C474D6552D4204997A23F959B.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_2.uasset'
+[2017.12.07-11.09.11:624][965]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_2.uasset
+[2017.12.07-11.09.15:986][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_3" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_3.uasset" SILENT=true
+[2017.12.07-11.09.15:996][422]LogSavePackage: Save=8.03ms
+[2017.12.07-11.09.15:996][422]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_343BA49364B8D6B80E506549C04734E4F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_3.uasset'
+[2017.12.07-11.09.16:010][422]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_3.uasset
+[2017.12.07-11.09.20:379][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_4" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_4.uasset" SILENT=true
+[2017.12.07-11.09.20:390][903]LogSavePackage: Save=7.78ms
+[2017.12.07-11.09.20:390][903]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_4B103959E46517C712A4735AA97849777.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_4.uasset'
+[2017.12.07-11.09.20:396][903]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_4.uasset
+[2017.12.07-11.11.10:640][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_5" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_5.uasset" SILENT=true
+[2017.12.07-11.11.10:651][205]LogSavePackage: Save=8.30ms
+[2017.12.07-11.11.10:651][205]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_59C4500DD46EB40A3CFDEFBB130A8E42D.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_5.uasset'
+[2017.12.07-11.11.10:657][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_5.uasset
+[2017.12.07-11.11.24:693][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_6" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_6.uasset" SILENT=true
+[2017.12.07-11.11.24:704][664]LogSavePackage: Save=8.04ms
+[2017.12.07-11.11.24:704][664]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_6E3FB27DD49B4CDAD29692D87015B84CF.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_6.uasset'
+[2017.12.07-11.11.24:712][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_6.uasset
+[2017.12.07-11.11.29:004][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_7" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_7.uasset" SILENT=true
+[2017.12.07-11.11.29:015][109]LogSavePackage: Save=8.12ms
+[2017.12.07-11.11.29:015][109]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_7ABB8EC744967F6D36821E99A39F9BB50.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_7.uasset'
+[2017.12.07-11.11.29:022][109]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_7.uasset
+[2017.12.07-11.11.32:565][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_8" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_8.uasset" SILENT=true
+[2017.12.07-11.11.32:576][502]LogSavePackage: Save=8.22ms
+[2017.12.07-11.11.32:576][502]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_870FE79554FD3907966532DB85BABFFEB.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_8.uasset'
+[2017.12.07-11.11.32:582][502]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_8.uasset
+[2017.12.07-11.11.40:985][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_9" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_9.uasset" SILENT=true
+[2017.12.07-11.11.40:995][398]LogSavePackage: Save=7.84ms
+[2017.12.07-11.11.40:995][398]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_903DFF9E24BD1DEDED817D29D5BC07CCE.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_9.uasset'
+[2017.12.07-11.11.41:001][398]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_9.uasset
+[2017.12.07-11.11.46:113][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_10" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_10.uasset" SILENT=true
+[2017.12.07-11.11.46:123][934]LogSavePackage: Save=7.73ms
+[2017.12.07-11.11.46:124][934]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_10866D028A41B960CE1A1F499783798C21.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_10.uasset'
+[2017.12.07-11.11.46:130][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_10.uasset
+[2017.12.07-11.11.50:112][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_11" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_11.uasset" SILENT=true
+[2017.12.07-11.11.50:123][368]LogSavePackage: Save=7.81ms
+[2017.12.07-11.11.50:123][368]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_11320DDC1D41FEA15A11458BBF033A2656.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_11.uasset'
+[2017.12.07-11.11.50:129][368]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_11.uasset
+[2017.12.07-11.11.53:630][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_12" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_12.uasset" SILENT=true
+[2017.12.07-11.11.53:641][720]LogSavePackage: Save=8.03ms
+[2017.12.07-11.11.53:641][720]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_126876811A49117AD31C3F33A89BF88C7F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_12.uasset'
+[2017.12.07-11.11.53:647][720]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_12.uasset
+[2017.12.07-11.11.56:852][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_13" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_13.uasset" SILENT=true
+[2017.12.07-11.11.56:862][ 49]LogSavePackage: Save=7.92ms
+[2017.12.07-11.11.56:862][ 49]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_1378C16D8644FDCDEE854B78BB5F50F3C1.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_13.uasset'
+[2017.12.07-11.11.56:868][ 49]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_13.uasset
+[2017.12.07-11.12.03:072][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_14" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_14.uasset" SILENT=true
+[2017.12.07-11.12.03:083][710]LogSavePackage: Save=8.01ms
+[2017.12.07-11.12.03:083][710]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_14979C58094948F867E9601ABBF494A18D.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_14.uasset'
+[2017.12.07-11.12.03:089][710]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_14.uasset
+[2017.12.07-11.12.07:744][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_15" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_15.uasset" SILENT=true
+[2017.12.07-11.12.07:755][227]LogSavePackage: Save=7.85ms
+[2017.12.07-11.12.07:755][227]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_156CD1243F47F8E87A97272CAF9B6D0DD4.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_15.uasset'
+[2017.12.07-11.12.07:761][227]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_15.uasset
+[2017.12.07-11.12.11:709][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_16" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_16.uasset" SILENT=true
+[2017.12.07-11.12.11:720][636]LogSavePackage: Save=8.12ms
+[2017.12.07-11.12.11:720][636]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_16BFA48A7243EA0E906640D8877FC4334F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_16.uasset'
+[2017.12.07-11.12.11:726][636]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_16.uasset
+[2017.12.07-12.19.03:741][234]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.022
+[2017.12.07-12.19.03:744][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_5] ([1] browsable assets)...
+[2017.12.07-12.19.03:752][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_5.Run_5]
+[2017.12.07-12.19.03:752][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_5]
+[2017.12.07-12.19.03:752][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_5" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_5_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.03:776][234]LogSavePackage: Save=11.29ms
+[2017.12.07-12.19.03:776][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_5_Auto3F71DF0014A806B2469DD5C899D4FA281.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_5_Auto3.uasset'
+[2017.12.07-12.19.03:787][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_5_Auto3.uasset
+[2017.12.07-12.19.03:789][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_12] ([1] browsable assets)...
+[2017.12.07-12.19.03:801][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_12.Run_12]
+[2017.12.07-12.19.03:801][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_12]
+[2017.12.07-12.19.03:833][234]LogSavePackage: Save=8.42ms
+[2017.12.07-12.19.03:833][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_12_Auto305D0D31F462689138EE8EEBE73258A95.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_12_Auto3.uasset'
+[2017.12.07-12.19.03:836][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_12_Auto3.uasset
+[2017.12.07-12.19.03:838][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_2] ([1] browsable assets)...
+[2017.12.07-12.19.03:846][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_2.Run_2]
+[2017.12.07-12.19.03:846][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_2]
+[2017.12.07-12.19.03:846][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_2" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_2_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.03:870][234]LogSavePackage: Save=9.35ms
+[2017.12.07-12.19.03:870][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_2_Auto3F119EC9A459274716FAAA7917EA43651.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_2_Auto3.uasset'
+[2017.12.07-12.19.03:877][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_2_Auto3.uasset
+[2017.12.07-12.19.03:879][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_10] ([1] browsable assets)...
+[2017.12.07-12.19.03:887][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_10.Run_10]
+[2017.12.07-12.19.03:887][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_10]
+[2017.12.07-12.19.03:907][234]LogSavePackage: Save=8.00ms
+[2017.12.07-12.19.03:907][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_10_Auto3EF88B5CF4AFBF672A7454F937716002F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_10_Auto3.uasset'
+[2017.12.07-12.19.03:911][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_10_Auto3.uasset
+[2017.12.07-12.19.03:914][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_3] ([1] browsable assets)...
+[2017.12.07-12.19.03:924][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_3.Run_3]
+[2017.12.07-12.19.03:924][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_3]
+[2017.12.07-12.19.03:924][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_3" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_3_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.03:943][234]LogSavePackage: Save=8.39ms
+[2017.12.07-12.19.03:943][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_3_Auto3F5EB5BED40ED60B3E083829915D90C84.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_3_Auto3.uasset'
+[2017.12.07-12.19.03:949][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_3_Auto3.uasset
+[2017.12.07-12.19.03:951][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_11] ([1] browsable assets)...
+[2017.12.07-12.19.03:959][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_11.Run_11]
+[2017.12.07-12.19.03:959][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_11]
+[2017.12.07-12.19.03:979][234]LogSavePackage: Save=7.94ms
+[2017.12.07-12.19.03:979][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_11_Auto3EF7B67C94583DE4077CD9DB152582478.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_11_Auto3.uasset'
+[2017.12.07-12.19.03:983][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_11_Auto3.uasset
+[2017.12.07-12.19.03:985][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_4] ([1] browsable assets)...
+[2017.12.07-12.19.03:993][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_4.Run_4]
+[2017.12.07-12.19.03:993][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_4]
+[2017.12.07-12.19.03:993][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_4" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_4_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.04:011][234]LogSavePackage: Save=7.93ms
+[2017.12.07-12.19.04:011][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_4_Auto3C5AD5ECB4C16AD825C755CB360EF6CF7.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_4_Auto3.uasset'
+[2017.12.07-12.19.04:018][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_4_Auto3.uasset
+[2017.12.07-12.19.04:022][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_13] ([1] browsable assets)...
+[2017.12.07-12.19.04:032][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_13.Run_13]
+[2017.12.07-12.19.04:032][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_13]
+[2017.12.07-12.19.04:050][234]LogSavePackage: Save=9.45ms
+[2017.12.07-12.19.04:050][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_13_Auto37E93527B435AAD520772BFB64F08A687.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_13_Auto3.uasset'
+[2017.12.07-12.19.04:096][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_13_Auto3.uasset
+[2017.12.07-12.19.04:101][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_6] ([1] browsable assets)...
+[2017.12.07-12.19.04:112][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_6.Run_6]
+[2017.12.07-12.19.04:112][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_6]
+[2017.12.07-12.19.04:112][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_6" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.04:133][234]LogSavePackage: Save=9.28ms
+[2017.12.07-12.19.04:133][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_6_Auto3B91F70DB430B67F9279E5A933F9EA303.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto3.uasset'
+[2017.12.07-12.19.04:136][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto3.uasset
+[2017.12.07-12.19.04:141][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_7] ([1] browsable assets)...
+[2017.12.07-12.19.04:154][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_7.Run_7]
+[2017.12.07-12.19.04:154][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_7]
+[2017.12.07-12.19.04:154][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_7" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_7_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.04:179][234]LogSavePackage: Save=10.00ms
+[2017.12.07-12.19.04:179][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_7_Auto3F7E0465242D819BD10E105A03512DB1F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_7_Auto3.uasset'
+[2017.12.07-12.19.04:183][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_7_Auto3.uasset
+[2017.12.07-12.19.04:187][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_8] ([1] browsable assets)...
+[2017.12.07-12.19.04:223][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_8.Run_8]
+[2017.12.07-12.19.04:223][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_8]
+[2017.12.07-12.19.04:223][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_8" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_8_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.04:246][234]LogSavePackage: Save=11.51ms
+[2017.12.07-12.19.04:246][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_8_Auto3CB5F268E41C5451C21713C9316B2CE56.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_8_Auto3.uasset'
+[2017.12.07-12.19.04:251][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_8_Auto3.uasset
+[2017.12.07-12.19.04:253][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_9] ([1] browsable assets)...
+[2017.12.07-12.19.04:274][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_9.Run_9]
+[2017.12.07-12.19.04:274][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_9]
+[2017.12.07-12.19.04:275][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_9" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_9_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.04:779][234]LogSavePackage: Save=13.29ms
+[2017.12.07-12.19.04:779][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_9_Auto3C924C8E54050A5A1CBD740BC015324D4.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_9_Auto3.uasset'
+[2017.12.07-12.19.04:786][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_9_Auto3.uasset
+[2017.12.07-12.19.04:789][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_14] ([1] browsable assets)...
+[2017.12.07-12.19.04:804][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_14.Run_14]
+[2017.12.07-12.19.04:804][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_14]
+[2017.12.07-12.19.04:959][234]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-12.19.04:990][234]LogSavePackage: Save=32.35ms
+[2017.12.07-12.19.04:991][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_14_Auto357CFD4904E8E36061C7ADD984B5873AC.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_14_Auto3.uasset'
+[2017.12.07-12.19.04:996][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_14_Auto3.uasset
+[2017.12.07-12.19.04:998][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_15] ([1] browsable assets)...
+[2017.12.07-12.19.05:007][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_15.Run_15]
+[2017.12.07-12.19.05:007][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_15]
+[2017.12.07-12.19.05:028][234]LogSavePackage: Save=8.17ms
+[2017.12.07-12.19.05:028][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_15_Auto331073EC34377031886E8F09986D697AF.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_15_Auto3.uasset'
+[2017.12.07-12.19.05:032][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_15_Auto3.uasset
+[2017.12.07-12.19.05:035][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_16] ([1] browsable assets)...
+[2017.12.07-12.19.05:044][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_16.Run_16]
+[2017.12.07-12.19.05:044][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_16]
+[2017.12.07-12.19.05:060][234]LogSavePackage: Save=7.24ms
+[2017.12.07-12.19.05:060][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_16_Auto3101F14C3483A899ACD141AA9CF0DC4D6.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_16_Auto3.uasset'
+[2017.12.07-12.19.05:064][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_16_Auto3.uasset
+[2017.12.07-12.19.05:067][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_1] ([1] browsable assets)...
+[2017.12.07-12.19.05:075][234]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_1.Run_1]
+[2017.12.07-12.19.05:075][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_1]
+[2017.12.07-12.19.05:075][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_1" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.19.05:103][234]LogSavePackage: Save=12.32ms
+[2017.12.07-12.19.05:103][234]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_1_Auto3479A802F4F88AB9A36F2FC83105C1AF0.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_1_Auto3.uasset'
+[2017.12.07-12.19.05:110][234]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_1_Auto3.uasset
+[2017.12.07-12.19.05:110][234]LogFileHelpers: Auto-saving content packages took 1.368
+[2017.12.07-12.29.05:826][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.023
+[2017.12.07-12.29.05:831][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_5] ([1] browsable assets)...
+[2017.12.07-12.29.05:841][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_5.Run_5]
+[2017.12.07-12.29.05:842][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_5]
+[2017.12.07-12.29.05:842][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_5" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_5_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.29.05:865][930]LogSavePackage: Save=9.24ms
+[2017.12.07-12.29.05:866][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_5_Auto49568163C4818A52EAC42B4A42CBC363A.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_5_Auto4.uasset'
+[2017.12.07-12.29.05:869][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_5_Auto4.uasset
+[2017.12.07-12.29.05:872][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_12] ([1] browsable assets)...
+[2017.12.07-12.29.05:881][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_12.Run_12]
+[2017.12.07-12.29.05:881][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_12]
+[2017.12.07-12.29.05:911][930]LogSavePackage: Save=9.06ms
+[2017.12.07-12.29.05:912][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_12_Auto45506152140F3C2F7BDD56183CC1F069F.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_12_Auto4.uasset'
+[2017.12.07-12.29.05:915][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_12_Auto4.uasset
+[2017.12.07-12.29.05:919][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_10] ([1] browsable assets)...
+[2017.12.07-12.29.05:926][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_10.Run_10]
+[2017.12.07-12.29.05:926][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_10]
+[2017.12.07-12.29.05:945][930]LogSavePackage: Save=7.67ms
+[2017.12.07-12.29.05:945][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_10_Auto43D19598C4E3297FF5AA6E9B678B2C980.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_10_Auto4.uasset'
+[2017.12.07-12.29.05:948][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_10_Auto4.uasset
+[2017.12.07-12.29.05:951][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_11] ([1] browsable assets)...
+[2017.12.07-12.29.05:960][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_11.Run_11]
+[2017.12.07-12.29.05:960][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_11]
+[2017.12.07-12.29.05:979][930]LogSavePackage: Save=7.47ms
+[2017.12.07-12.29.05:980][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_11_Auto4ACF8DAD94CFBCD02AF24CC8154525230.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_11_Auto4.uasset'
+[2017.12.07-12.29.05:983][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_11_Auto4.uasset
+[2017.12.07-12.29.05:987][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_13] ([1] browsable assets)...
+[2017.12.07-12.29.05:994][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_13.Run_13]
+[2017.12.07-12.29.05:995][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_13]
+[2017.12.07-12.29.06:023][930]LogSavePackage: Save=10.79ms
+[2017.12.07-12.29.06:023][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_13_Auto42D3EC86D4CEB202616F6A38423C73093.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_13_Auto4.uasset'
+[2017.12.07-12.29.06:030][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_13_Auto4.uasset
+[2017.12.07-12.29.06:032][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_6] ([1] browsable assets)...
+[2017.12.07-12.29.06:043][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_6.Run_6]
+[2017.12.07-12.29.06:043][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_6]
+[2017.12.07-12.29.06:043][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_6" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.29.06:068][930]LogSavePackage: Save=12.01ms
+[2017.12.07-12.29.06:068][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_6_Auto4E976A9E445B967B52C08AFACFB445568.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto4.uasset'
+[2017.12.07-12.29.06:074][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto4.uasset
+[2017.12.07-12.29.06:076][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_7] ([1] browsable assets)...
+[2017.12.07-12.29.06:085][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_7.Run_7]
+[2017.12.07-12.29.06:085][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_7]
+[2017.12.07-12.29.06:085][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_7" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_7_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.29.06:109][930]LogSavePackage: Save=8.80ms
+[2017.12.07-12.29.06:109][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_7_Auto4BBBC3B574F9200AE076E939A6E7C52D3.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_7_Auto4.uasset'
+[2017.12.07-12.29.06:112][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_7_Auto4.uasset
+[2017.12.07-12.29.06:115][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_8] ([1] browsable assets)...
+[2017.12.07-12.29.06:122][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_8.Run_8]
+[2017.12.07-12.29.06:123][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_8]
+[2017.12.07-12.29.06:123][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_8" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_8_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.29.06:143][930]LogSavePackage: Save=7.91ms
+[2017.12.07-12.29.06:143][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_8_Auto48B515CF941D4AF26245CCEB35F8CA634.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_8_Auto4.uasset'
+[2017.12.07-12.29.06:146][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_8_Auto4.uasset
+[2017.12.07-12.29.06:149][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_9] ([1] browsable assets)...
+[2017.12.07-12.29.06:158][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_9.Run_9]
+[2017.12.07-12.29.06:158][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_9]
+[2017.12.07-12.29.06:158][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_9" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_9_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-12.29.06:181][930]LogSavePackage: Save=8.95ms
+[2017.12.07-12.29.06:182][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_9_Auto4A023363C42F9789FCDD560B820DB0565.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_9_Auto4.uasset'
+[2017.12.07-12.29.06:186][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_9_Auto4.uasset
+[2017.12.07-12.29.06:188][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_14] ([1] browsable assets)...
+[2017.12.07-12.29.06:196][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_14.Run_14]
+[2017.12.07-12.29.06:196][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_14]
+[2017.12.07-12.29.06:231][930]LogSavePackage: Save=17.28ms
+[2017.12.07-12.29.06:231][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_14_Auto498EB54224F662B286CC7BB8D1AAB5552.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_14_Auto4.uasset'
+[2017.12.07-12.29.06:236][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_14_Auto4.uasset
+[2017.12.07-12.29.06:238][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_15] ([1] browsable assets)...
+[2017.12.07-12.29.06:245][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_15.Run_15]
+[2017.12.07-12.29.06:245][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_15]
+[2017.12.07-12.29.06:270][930]LogSavePackage: Save=9.93ms
+[2017.12.07-12.29.06:270][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_15_Auto4F1020BD14EDE212D219DE6B8643E8D98.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_15_Auto4.uasset'
+[2017.12.07-12.29.06:276][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_15_Auto4.uasset
+[2017.12.07-12.29.06:279][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_16] ([1] browsable assets)...
+[2017.12.07-12.29.06:287][930]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_16.Run_16]
+[2017.12.07-12.29.06:287][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_16]
+[2017.12.07-12.29.06:310][930]LogSavePackage: Save=10.01ms
+[2017.12.07-12.29.06:311][930]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_16_Auto46FB9A0854BCEE31ECC8F7FA2C1055037.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_16_Auto4.uasset'
+[2017.12.07-12.29.06:316][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_16_Auto4.uasset
+[2017.12.07-12.29.06:316][930]LogFileHelpers: Auto-saving content packages took 0.487
+[2017.12.07-13.04.24:776][840]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.011
+[2017.12.07-13.04.24:779][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_2] ([1] browsable assets)...
+[2017.12.07-13.04.24:786][840]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_2.Run_2]
+[2017.12.07-13.04.24:786][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_2]
+[2017.12.07-13.04.24:786][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_2" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_2_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-13.04.24:824][840]LogSavePackage: Save=18.28ms
+[2017.12.07-13.04.24:824][840]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_2_Auto58F61A8FE441C83D4FED4CB9827828545.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_2_Auto5.uasset'
+[2017.12.07-13.04.24:829][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_2_Auto5.uasset
+[2017.12.07-13.04.24:831][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_10] ([1] browsable assets)...
+[2017.12.07-13.04.24:839][840]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_10.Run_10]
+[2017.12.07-13.04.24:839][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_10]
+[2017.12.07-13.04.24:856][840]LogSavePackage: Save=6.90ms
+[2017.12.07-13.04.24:856][840]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_10_Auto552F212944F4F390349504BA1516D6321.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_10_Auto5.uasset'
+[2017.12.07-13.04.24:859][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_10_Auto5.uasset
+[2017.12.07-13.04.24:861][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_6] ([1] browsable assets)...
+[2017.12.07-13.04.24:868][840]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_6.Run_6]
+[2017.12.07-13.04.24:868][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_6]
+[2017.12.07-13.04.24:868][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_6" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.12.07-13.04.24:884][840]LogSavePackage: Save=6.77ms
+[2017.12.07-13.04.24:884][840]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_6_Auto56CA0A7064CFFA2640B54CC8442DA9BC2.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto5.uasset'
+[2017.12.07-13.04.24:887][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_6_Auto5.uasset
+[2017.12.07-13.04.24:889][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Run_14] ([1] browsable assets)...
+[2017.12.07-13.04.24:897][840]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Run_14.Run_14]
+[2017.12.07-13.04.24:897][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Run_14]
+[2017.12.07-13.04.24:914][840]LogSavePackage: Save=7.79ms
+[2017.12.07-13.04.24:914][840]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_14_Auto56EA4A357411D6D25FF52428C75C4B424.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_14_Auto5.uasset'
+[2017.12.07-13.04.24:918][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Sprites/Run_14_Auto5.uasset
+[2017.12.07-13.04.24:919][840]LogFileHelpers: Auto-saving content packages took 0.141
+[2017.12.07-13.05.16:668][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_16" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_16.uasset" SILENT=true
+[2017.12.07-13.05.16:686][458]LogSavePackage: Save=6.90ms
+[2017.12.07-13.05.16:686][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_16DC1D638D44CD6E73C2FCA180E243B635.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_16.uasset'
+[2017.12.07-13.05.16:693][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_16.uasset
+[2017.12.07-13.05.16:695][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_1" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_1.uasset" SILENT=true
+[2017.12.07-13.05.16:709][458]LogSavePackage: Save=3.85ms
+[2017.12.07-13.05.16:710][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_14DE52D31479C1FF3CE6A159106DA0ACF.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_1.uasset'
+[2017.12.07-13.05.16:716][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_1.uasset
+[2017.12.07-13.05.16:718][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_2" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_2.uasset" SILENT=true
+[2017.12.07-13.05.16:730][458]LogSavePackage: Save=3.93ms
+[2017.12.07-13.05.16:730][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_21825283848D92453541E86BB4C333A74.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_2.uasset'
+[2017.12.07-13.05.16:736][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_2.uasset
+[2017.12.07-13.05.16:749][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_3" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_3.uasset" SILENT=true
+[2017.12.07-13.05.16:766][458]LogSavePackage: Save=6.81ms
+[2017.12.07-13.05.16:766][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_358CA51364E48348998D648AE8E724D85.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_3.uasset'
+[2017.12.07-13.05.16:772][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_3.uasset
+[2017.12.07-13.05.16:783][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_4" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_4.uasset" SILENT=true
+[2017.12.07-13.05.16:801][458]LogSavePackage: Save=6.83ms
+[2017.12.07-13.05.16:801][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_4F6348D7C4CBE140BCCBAD1A74E62355C.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_4.uasset'
+[2017.12.07-13.05.16:810][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_4.uasset
+[2017.12.07-13.05.16:814][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_5" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_5.uasset" SILENT=true
+[2017.12.07-13.05.16:827][458]LogSavePackage: Save=3.40ms
+[2017.12.07-13.05.16:827][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_56692BC4C4669E3EE7C687386DFC1FF81.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_5.uasset'
+[2017.12.07-13.05.16:834][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_5.uasset
+[2017.12.07-13.05.16:837][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_6" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_6.uasset" SILENT=true
+[2017.12.07-13.05.16:850][458]LogSavePackage: Save=3.97ms
+[2017.12.07-13.05.16:850][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_6E63122E940BD34A8DABE6FA7DA6D0190.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_6.uasset'
+[2017.12.07-13.05.16:857][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_6.uasset
+[2017.12.07-13.05.16:867][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_7" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_7.uasset" SILENT=true
+[2017.12.07-13.05.16:884][458]LogSavePackage: Save=6.78ms
+[2017.12.07-13.05.16:884][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_707151BB844B22E08B68D199FC9E60245.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_7.uasset'
+[2017.12.07-13.05.16:892][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_7.uasset
+[2017.12.07-13.05.16:901][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_8" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_8.uasset" SILENT=true
+[2017.12.07-13.05.16:925][458]LogSavePackage: Save=13.24ms
+[2017.12.07-13.05.16:925][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_83CE57FD444F1C1C8F33029864A635BA8.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_8.uasset'
+[2017.12.07-13.05.16:938][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_8.uasset
+[2017.12.07-13.05.16:942][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_9" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_9.uasset" SILENT=true
+[2017.12.07-13.05.16:958][458]LogSavePackage: Save=3.65ms
+[2017.12.07-13.05.16:958][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_9173DE0A443D236CDE29696AF9BCBC114.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_9.uasset'
+[2017.12.07-13.05.16:965][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_9.uasset
+[2017.12.07-13.05.16:967][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_10" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_10.uasset" SILENT=true
+[2017.12.07-13.05.16:979][458]LogSavePackage: Save=3.69ms
+[2017.12.07-13.05.16:979][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_1056775286403906294A149B9CE9545E52.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_10.uasset'
+[2017.12.07-13.05.16:985][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_10.uasset
+[2017.12.07-13.05.16:995][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_11" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_11.uasset" SILENT=true
+[2017.12.07-13.05.17:014][458]LogSavePackage: Save=6.84ms
+[2017.12.07-13.05.17:014][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_113312C01E44D0B33C7606D8B1371B70BC.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_11.uasset'
+[2017.12.07-13.05.17:020][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_11.uasset
+[2017.12.07-13.05.17:030][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_12" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_12.uasset" SILENT=true
+[2017.12.07-13.05.17:049][458]LogSavePackage: Save=8.01ms
+[2017.12.07-13.05.17:049][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_123641ACEA4DBE7258B1387AAE103AB843.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_12.uasset'
+[2017.12.07-13.05.17:056][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_12.uasset
+[2017.12.07-13.05.17:059][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_13" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_13.uasset" SILENT=true
+[2017.12.07-13.05.17:073][458]LogSavePackage: Save=3.49ms
+[2017.12.07-13.05.17:073][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_1396E8267B4FCB2EFC05B61FBFB5A4976C.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_13.uasset'
+[2017.12.07-13.05.17:080][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_13.uasset
+[2017.12.07-13.05.17:083][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_14" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_14.uasset" SILENT=true
+[2017.12.07-13.05.17:096][458]LogSavePackage: Save=3.95ms
+[2017.12.07-13.05.17:096][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_14F840164A49336390A7FA57BD48A5131E.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_14.uasset'
+[2017.12.07-13.05.17:103][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_14.uasset
+[2017.12.07-13.05.17:112][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Run_15" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_15.uasset" SILENT=true
+[2017.12.07-13.05.17:129][458]LogSavePackage: Save=6.35ms
+[2017.12.07-13.05.17:129][458]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Run_1547A231134E248197E6F4CD875AC74493.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_15.uasset'
+[2017.12.07-13.05.17:135][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/Run_15.uasset
+[2017.12.07-13.07.02:209][620]LogContentBrowser: Verbose: The majority of assets in the view are of type: World
+[2017.12.07-13.07.03:552][753]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2017.12.07-13.08.12:586][228]LogContentBrowser: Verbose: The majority of assets in the view are of type: World
+[2017.12.07-13.08.13:183][298]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2017.12.07-13.08.13:954][389]LogContentBrowser: Verbose: The majority of assets in the view are of type: World
+[2017.12.07-13.08.15:221][539]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2017.12.07-13.09.12:030][730]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperFlipbook
+[2017.12.07-13.10.07:918][551]Cmd: MODE GRID=0
+[2017.12.07-13.10.08:383][582]Cmd: MODE GRID=1
+[2017.12.07-13.12.19:117][372]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
+[2017.12.07-13.13.26:500][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/idleFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idleFlipbook.uasset" SILENT=true
+[2017.12.07-13.13.26:509][781]LogSavePackage: Save=6.33ms
+[2017.12.07-13.13.26:509][781]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idleFlipbookFE0F7DA34E9FB918A3D7E3AB02C1C2D3.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idleFlipbook.uasset'
+[2017.12.07-13.13.26:517][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Sprites/idleFlipbook.uasset
+[2017.12.07-13.13.37:786][ 20]LogContentBrowser: Verbose: The majority of assets in the view are of type: Material
+[2017.12.07-13.13.39:497][189]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperFlipbook
+[2017.12.07-13.13.47:434][957]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
+[2017.12.07-13.13.54:003][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/idleFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset" SILENT=true
+[2017.12.07-13.13.54:012][683]LogSavePackage: Save=6.48ms
+[2017.12.07-13.13.54:012][683]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idleFlipbookE243531C4FA805D7E1EE109802B04790.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset'
+[2017.12.07-13.13.54:019][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset
+[2017.12.07-13.13.54:546][732]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperFlipbook
+[2017.12.07-13.15.03:617][965]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.063
+[2017.12.07-13.15.03:636][965]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Flipbooks/idleFlipbook] ([1] browsable assets)...
+[2017.12.07-13.15.03:644][965]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Flipbooks/idleFlipbook.idleFlipbook]
+[2017.12.07-13.15.03:644][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/Flipbooks/idleFlipbook]
+[2017.12.07-13.15.03:707][965]LogSavePackage: Save=13.55ms
+[2017.12.07-13.15.03:707][965]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idleFlipbook_Auto69ADCEC8641DC98FBDD4A7187014448ED.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Flipbooks/idleFlipbook_Auto6.uasset'
+[2017.12.07-13.15.03:712][965]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Flipbooks/idleFlipbook_Auto6.uasset
+[2017.12.07-13.15.03:712][965]LogFileHelpers: Auto-saving content packages took 0.087
+[2017.12.07-13.15.05:760][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/idleFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset" SILENT=true
+[2017.12.07-13.15.05:774][972]LogSavePackage: Save=3.00ms
+[2017.12.07-13.15.05:774][972]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idleFlipbookE265DEB44A320126993B9CBD7421605B.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset'
+[2017.12.07-13.15.05:781][972]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset
+[2017.12.07-13.15.06:395][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/idleFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset" SILENT=true
+[2017.12.07-13.15.06:408][ 33]LogSavePackage: Save=3.09ms
+[2017.12.07-13.15.06:408][ 33]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idleFlipbookABF6E6984E33180C0154A197BE89FE23.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset'
+[2017.12.07-13.15.06:411][ 33]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset
+[2017.12.07-13.15.14:888][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/idleFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset" SILENT=true
+[2017.12.07-13.15.14:900][468]LogSavePackage: Save=2.68ms
+[2017.12.07-13.15.14:900][468]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/idleFlipbook83C92603428B0540669220BAB438C4DD.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset'
+[2017.12.07-13.15.14:903][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/idleFlipbook.uasset
+[2017.12.07-13.16.19:111][ 86]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
+[2017.12.07-13.16.44:002][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/RunFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset" SILENT=true
+[2017.12.07-13.16.44:011][829]LogSavePackage: Save=6.50ms
+[2017.12.07-13.16.44:011][829]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/RunFlipbookD36F29694E9DB7611BE49EB6963ED421.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset'
+[2017.12.07-13.16.44:017][829]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset
+[2017.12.07-13.16.44:579][882]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperFlipbook
+[2017.12.07-13.18.43:992][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/RunFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset" SILENT=true
+[2017.12.07-13.18.44:008][972]LogSavePackage: Save=3.17ms
+[2017.12.07-13.18.44:008][972]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/RunFlipbook082951F64DDD258999C993B32CACBE63.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset'
+[2017.12.07-13.18.44:011][972]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset
+[2017.12.07-13.18.44:357][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/RunFlipbook" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset" SILENT=true
+[2017.12.07-13.18.44:370][  3]LogSavePackage: Save=3.08ms
+[2017.12.07-13.18.44:370][  3]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/RunFlipbookD90D305D4B1837B22F7D62A7186D8BE0.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset'
+[2017.12.07-13.18.44:372][  3]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Flipbooks/RunFlipbook.uasset
+[2017.12.07-13.32.10:466][160]Cmd: QUIT_EDITOR
+[2017.12.07-13.32.10:490][160]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.12.07-13.32.10:501][160]LogExit: Preparing to exit.
+[2017.12.07-13.32.11:162][160]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/' was aborted.
+[2017.12.07-13.32.11:233][160]LogExit: Editor shut down
+[2017.12.07-13.32.11:280][160]LogExit: Transaction tracking system shut down
+[2017.12.07-13.32.11:543][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.07-13.32.11:543][160]LogDirectoryWatcher: A directory notification for '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/' was aborted.
+[2017.12.07-13.32.11:543][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.07-13.32.11:544][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.12.07-13.32.11:544][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.12.07-13.32.11:544][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.07-13.32.11:544][160]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.07-13.32.11:700][160]LogExit: Object subsystem successfully closed.
+[2017.12.07-13.32.11:730][160]LogD3D11RHI: Shutdown
+[2017.12.07-13.32.11:730][160]LogD3D11RHI: CleanupD3DDevice
+[2017.12.07-13.32.11:734][160]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.07-13.32.11:850][160]LogModuleManager: Shutting down and abandoning module TextureEditor (550)
+[2017.12.07-13.32.11:850][160]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.12.07-13.32.11:850][160]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2017.12.07-13.32.11:850][160]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.12.07-13.32.11:850][160]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.12.07-13.32.11:851][160]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.12.07-13.32.11:851][160]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.12.07-13.32.11:851][160]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.12.07-13.32.11:852][160]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Collections/' was aborted.
+[2017.12.07-13.32.11:852][160]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Developers/eowls/Collections/' was aborted.
+[2017.12.07-13.32.11:852][160]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Collections/' was aborted.
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.12.07-13.32.11:852][160]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.12.07-13.32.11:853][160]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.12.07-13.32.12:051][160]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.12.07-13.32.12:052][160]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.12.07-13.32.12:052][160]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.12.07-13.32.12:052][160]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.12.07-13.32.12:052][160]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.12.07-13.32.12:052][160]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.12.07-13.32.12:105][160]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.12.07-13.32.12:106][160]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.12.07-13.32.12:107][160]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.12.07-13.32.12:108][160]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.12.07-13.32.12:157][160]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.12.07-13.32.12:158][160]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.12.07-13.32.12:159][160]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.12.07-13.32.12:159][160]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.12.07-13.32.12:159][160]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.12.07-13.32.12:160][160]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.12.07-13.32.12:160][160]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.12.07-13.32.12:160][160]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.12.07-13.32.12:161][160]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.12.07-13.32.12:161][160]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.12.07-13.32.12:161][160]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.12.07-13.32.12:161][160]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.12.07-13.32.12:161][160]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.12.07-13.32.12:261][160]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.12.07-13.32.12:361][160]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.12.07-13.32.12:361][160]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.12.07-13.32.12:361][160]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.12.07-13.32.12:361][160]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.12.07-13.32.12:361][160]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.12.07-13.32.12:361][160]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.12.07-13.32.12:362][160]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.12.07-13.32.12:368][160]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.12.07-13.32.12:369][160]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.12.07-13.32.12:369][160]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.12.07-13.32.12:372][160]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.12.07-13.32.12:374][160]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.12.07-13.32.12:435][160]LogDerivedDataCache: Shutdown
+[2017.12.07-13.32.12:435][160]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.12.07-13.32.12:435][160]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.12.07-13.32.12:435][160]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.12.07-13.32.12:435][160]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.12.07-13.32.12:435][160]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.12.07-13.32.12:435][160]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.12.07-13.32.12:435][160]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.07-13.32.12:436][160]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.07-13.32.12:436][160]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.07-13.32.12:436][160]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BED7F19D6-4370-06AE-B66B-4CB758FA76BB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=3ff6509e45a8c6c1cf288398d0c6e11d%7C78f13b57c3fb4f3c840dd973fda0e920%7C0b604f14-8e80-4b87-a522-a4f4ad57cadf&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.07-13.32.12:459][160]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.07-13.32.12:461][160]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.07-13.32.12:461][160]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.07-13.32.12:461][160]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.07-13.32.12:461][160]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.07-13.32.12:461][160]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.07-13.32.12:461][160]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.07-13.32.12:461][160]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.07-13.32.12:462][160]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.07-13.32.12:462][160]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.07-13.32.12:462][160]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.07-13.32.12:462][160]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.07-13.32.12:462][160]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.07-13.32.12:463][160]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.07-13.32.12:463][160]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.07-13.32.12:463][160]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.07-13.32.12:463][160]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.07-13.32.12:463][160]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.07-13.32.12:463][160]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.07-13.32.12:465][160]LogExit: Exiting.
+[2017.12.07-13.32.12:474][160]Log file closed, 12/07/17 22:32:12
