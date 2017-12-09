@@ -1,4 +1,4 @@
-﻿Log file open, 12/09/17 03:22:09
+﻿Log file open, 12/09/17 18:19:08
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Mypaper
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-390176932) SRandInit(-390176932).
+LogInit: Display: RandInit(419716661) SRandInit(419716662).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.095815
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.175090
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -192,738 +192,574 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line: -EpicPortal 
-LogInit: Base directory: D:/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.08-18.22.11:269][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.08-18.22.11:269][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.08-18.22.11:279][  0]LogInit: Computer: DESKTOP-A2OVGNP
-[2017.12.08-18.22.11:279][  0]LogInit: User: asd
-[2017.12.08-18.22.11:279][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.12.08-18.22.11:279][  0]LogInit: High frequency timer resolution =3.421879 MHz
-[2017.12.08-18.22.11:279][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.12.08-18.22.11:279][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.08-18.22.11:279][  0]LogMemory: Process Physical Memory: 271.13 MB used, 271.13 MB peak
-[2017.12.08-18.22.11:279][  0]LogMemory: Process Virtual Memory: 269.21 MB used, 269.21 MB peak
-[2017.12.08-18.22.11:279][  0]LogMemory: Physical Memory: 4510.98 MB used,  3566.93 MB free, 8077.91 MB total
-[2017.12.08-18.22.11:279][  0]LogMemory: Virtual Memory: 625.35 MB used,  3566.93 MB free, 134217728.00 MB total
-[2017.12.08-18.22.11:406][  0]LogInit: Using OS detected language (ko-KR).
-[2017.12.08-18.22.11:406][  0]LogInit: Using OS detected locale (ko-KR).
-[2017.12.08-18.22.11:409][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2017.12.08-18.22.11:588][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.08-18.22.11:856][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.08-18.22.11:906][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2017.12.08-18.22.11:906][  0]LogD3D11RHI:       4053/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.12.08-18.22.11:913][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 610' (Feature Level 11_0)
-[2017.12.08-18.22.11:913][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.12.08-18.22.11:914][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.08-18.22.11:914][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.08-18.22.11:914][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.08-18.22.11:919][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.08-18.22.11:919][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2017.12.08-18.22.11:919][  0]LogWindows: EnumDisplayDevices:
-[2017.12.08-18.22.11:919][  0]LogWindows:    0. 'Intel(R) HD Graphics 610' (P:1 D:1)
-[2017.12.08-18.22.11:919][  0]LogWindows:    1. 'Intel(R) HD Graphics 610' (P:0 D:0)
-[2017.12.08-18.22.11:920][  0]LogWindows:    2. 'Intel(R) HD Graphics 610' (P:0 D:0)
-[2017.12.08-18.22.11:920][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.12.08-18.22.11:920][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2017.12.08-18.22.11:920][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.12.08-18.22.11:920][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.12.08-18.22.11:920][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2017.12.08-18.22.11:947][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.08-18.22.11:959][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.08-18.22.11:960][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Intermediate/Shaders/WorkingDirectory/10708/).
-[2017.12.08-18.22.11:960][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/asd/AppData/Local/Temp/UnrealShaderWorkingDir/5569FC034D8E2FBE049C908135B0487F/'.
-[2017.12.08-18.22.11:960][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.08-18.22.12:780][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.08-18.22.12:828][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.08-18.22.12:863][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.08-18.22.12:899][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.08-18.22.12:934][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.08-18.22.12:970][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.08-18.22.13:011][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.08-18.22.13:158][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.08-18.22.13:188][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.08-18.22.13:252][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.08-18.22.13:287][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.08-18.22.13:321][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.08-18.22.13:356][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.08-18.22.13:390][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.08-18.22.13:472][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.08-18.22.13:472][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.08-18.22.13:509][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.08-18.22.13:534][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.08-18.22.13:601][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.08-18.22.13:621][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.08-18.22.13:662][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.08-18.22.13:702][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.08-18.22.13:751][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.08-18.22.13:819][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.08-18.22.13:819][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.08-18.22.14:147][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.08-18.22.14:234][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/asd/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.08-18.22.14:234][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/asd/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.08-18.22.14:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.08-18.22.14:234][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.08-18.22.14:234][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.08-18.22.14:234][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.08-18.22.14:249][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.08-18.22.14:262][  0]LogDerivedDataCache: Using Local data cache path C:/Users/asd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.08-18.22.14:271][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.08-18.22.14:272][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.08-18.22.14:272][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.08-18.22.14:272][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.08-18.22.14:606][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.08-18.22.14:864][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.08-18.22.14:899][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.08-18.22.14:899][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.08-18.22.14:899][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.08-18.22.14:899][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.08-18.22.14:899][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.08-18.22.14:926][  0]LogNetVersion: Mypaper , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1259759705)
-[2017.12.08-18.22.15:082][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
-[2017.12.08-18.22.15:687][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.077588 seconds
-[2017.12.08-18.22.15:694][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.08-18.22.15:694][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
-[2017.12.08-18.22.15:694][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.08-18.22.15:730][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.08-18.22.18:463][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.08-18.22.18:499][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.08-18.22.19:035][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.08-18.22.19:369][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2017.12.08-18.22.19:369][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2017.12.08-18.22.19:409][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2017.12.08-18.22.19:448][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2017.12.08-18.22.20:124][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.08-18.22.20:886][  0]LogOcInput: OculusInput pre-init called
-[2017.12.08-18.22.21:169][  0]LogEngine: Initializing Engine...
-[2017.12.08-18.22.21:171][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.08-18.22.21:419][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.08-18.22.21:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.08-18.22.21:538][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.08-18.22.21:545][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.08-18.22.21:595][  0]LogInit: FAudioDevice initialized.
-[2017.12.08-18.22.21:687][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/asd/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.08-18.22.21:712][  0]LogInit: Texture streaming: Enabled
-[2017.12.08-18.22.21:779][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.08-18.22.21:896][  0]LogInit: Transaction tracking system initialized
-[2017.12.08-18.22.22:132][  0]BlueprintLog: New page: 에디터 로드
-[2017.12.08-18.22.22:819][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2017.12.08-18.22.23:396][  0]LogConsoleResponse: Display: 
-[2017.12.08-18.22.23:701][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.08-18.22.23:701][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.08-18.22.23:701][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.08-18.22.24:423][  0]LogFileCache: Scanning file cache for directory 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/' took 0.03s
-[2017.12.08-18.22.24:741][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2017.12.08-18.22.24:742][  0]Cmd: MAP LOAD FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.08-18.22.24:742][  0]LightingResults: New page: 라이팅 빌드
-[2017.12.08-18.22.24:777][  0]MapCheck: New page: 맵 체크
-[2017.12.08-18.22.24:777][  0]LightingResults: New page: 라이팅 빌드
-[2017.12.08-18.22.24:864][  0]LogAIModule: Creating AISystem for world My2dmap
-[2017.12.08-18.22.24:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.08-18.22.25:030][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.08-18.22.25:093][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 63.136ms.
-[2017.12.08-18.22.25:093][  0]LogFileHelpers: Loading map 'My2dmap' took 0.352
-[2017.12.08-18.22.25:202][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.12.08-18.22.26:738][  0]LogCollectionManager: Loaded 0 collections in 0.001399 seconds
-[2017.12.08-18.22.27:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Collections/' took 0.01s
-[2017.12.08-18.22.27:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Developers/asd/Collections/' took 0.01s
-[2017.12.08-18.22.27:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Collections/' took 0.01s
-[2017.12.08-18.22.27:192][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.08-18.22.27:282][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2363 classes and 519 folders.
-[2017.12.08-18.22.27:627][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.12.08-18.22.28:449][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.12.08-18.22.28:585][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.12.08-18.22.29:798][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.12.08-18.22.29:798][  0]LogLoad: (Engine Initialization) Total time: 20.96 seconds
-[2017.12.08-18.22.29:798][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.08-18.22.29:798][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.08-18.22.30:018][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.08-18.22.30:019][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.08-18.22.30:041][  0]LogSlate: Took 0.003349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2017.12.08-18.22.30:043][  0]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.08-18.22.30:154][  0]LogSlate: Took 0.016563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.08-18.22.31:303][  0]LogRenderer: Reallocating scene render targets to support 576x460 Format 10 NumSamples 1 (Frame:1).
-[2017.12.08-18.22.31:303][  0]LogContentBrowser: Verbose: The majority of assets in the view are of type: World
-[2017.12.08-18.22.32:080][  1]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
-[2017.12.08-18.22.32:217][  4]LogAssetRegistry: Asset discovery search completed in 17.1565 seconds
-[2017.12.08-18.22.32:221][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.08-18.22.32:221][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
-[2017.12.08-18.22.36:092][219]LogRenderer: Reallocating scene render targets to support 776x460 Format 10 NumSamples 1 (Frame:214).
-[2017.12.08-18.22.46:971][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-18.22.47:077][834]PIE: New page: PIE 세션: My2dmap (2017. 12. 9. 오후 12:22:47)
-[2017.12.08-18.22.47:098][834]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
-[2017.12.08-18.22.47:157][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058562s)
-[2017.12.08-18.22.47:158][834]LogAIModule: Creating AISystem for world My2dmap
-[2017.12.08-18.22.47:191][834]LogPlayLevel: PIE: World Init took: (0.033050s)
-[2017.12.08-18.22.47:203][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.104626s)
-[2017.12.08-18.22.47:287][834]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.08-18.22.47:307][834]LogInit: FAudioDevice initialized.
-[2017.12.08-18.22.47:724][834]LogLoad: Game class is 'PaperGameMode_C'
-[2017.12.08-18.22.47:904][834]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 60) at 2017.12.09-03.22.47
-[2017.12.08-18.22.48:025][834]LogWorld: Bringing up level for play took: 0.130452
-[2017.12.08-18.22.48:442][834]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2017.12.08-18.22.48:613][834]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: 0.935
-[2017.12.08-18.22.59:131][370]LogTemp: Repeating last play command: 선택된 뷰포트
-[2017.12.08-18.22.59:144][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-18.22.59:144][370]PIE: New page: PIE 세션: My2dmap (2017. 12. 9. 오후 12:22:59)
-[2017.12.08-18.22.59:144][370]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
-[2017.12.08-18.22.59:145][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001026s)
-[2017.12.08-18.22.59:146][370]LogAIModule: Creating AISystem for world My2dmap
-[2017.12.08-18.22.59:146][370]LogPlayLevel: PIE: World Init took: (0.000856s)
-[2017.12.08-18.22.59:147][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.002212s)
-[2017.12.08-18.22.59:160][370]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.08-18.22.59:182][370]LogInit: FAudioDevice initialized.
-[2017.12.08-18.22.59:247][370]LogLoad: Game class is 'PaperGameMode_C'
-[2017.12.08-18.22.59:248][370]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 60) at 2017.12.09-03.22.59
-[2017.12.08-18.22.59:249][370]LogWorld: Bringing up level for play took: 0.000734
-[2017.12.08-18.22.59:250][370]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: -0.429
-[2017.12.08-18.25.23:646][867]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform)
-[2017.12.08-18.25.25:497][867]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform)
-[2017.12.08-18.25.25:519][867]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Platform)
-[2017.12.08-18.25.59:118][180]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
-[2017.12.08-18.26.00:969][278]LogSlate: Took 0.009627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.08-18.26.01:828][278]LogSlate: Took 0.014167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.08-18.26.04:341][278]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
-[2017.12.08-18.26.07:571][278]LogSlate: Took 0.024890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.12.08-18.26.08:373][279]LogSlate: Took 0.007799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.12.08-18.33.03:683][257]LogSlate: Took 0.015849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.08-18.33.12:594][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2dmap" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/My2dmap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.12.08-18.33.12:772][283]LogSavePackage: Save=120.56ms
-[2017.12.08-18.33.12:772][283]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/My2dmap_Auto1A7D8318E4377BAA7BBF99E8165EAC357.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/My2dmap_Auto1.umap'
-[2017.12.08-18.33.12:794][283]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/My2dmap_Auto1.umap
-[2017.12.08-18.33.12:864][283]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.493
-[2017.12.08-18.33.12:864][283]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.493
-[2017.12.08-18.33.12:868][283]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-18.33.12:868][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-18.33.12:868][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-18.33.12:957][283]LogSavePackage: Save=76.38ms
-[2017.12.08-18.33.12:957][283]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto1C0305D174EAF1CE8E3401FB9EBA08688.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset'
-[2017.12.08-18.33.12:963][283]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset
-[2017.12.08-18.33.12:963][283]LogFileHelpers: Auto-saving content packages took 0.098
-[2017.12.08-18.37.59:629][370]LogSlate: Took 0.015712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.12.08-18.38.18:185][339]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperFlipbook
-[2017.12.08-18.38.20:409][469]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
-[2017.12.08-18.39.30:092][350]LogEditorTransaction: Undo 오브젝트 핀 값 변경
-[2017.12.08-18.40.03:018][209]LogEditorTransaction: Undo 오브젝트 핀 값 변경
-[2017.12.08-18.40.03:045][209]LogEditorTransaction: Undo 오브젝트 핀 값 변경
-[2017.12.08-18.40.17:806][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2dmap" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.08-18.40.17:865][  8]LogSavePackage: Save=16.62ms
-[2017.12.08-18.40.17:865][  8]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/My2dmapB9503A914AA1BA4A91625A98E9A8DD7A.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap'
-[2017.12.08-18.40.17:869][  8]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap
-[2017.12.08-18.40.17:919][  8]LogFileHelpers: Saving map 'My2dmap' took 0.619
-[2017.12.08-18.40.17:924][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-18.40.17:970][  8]LogSavePackage: Save=33.90ms
-[2017.12.08-18.40.17:970][  8]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter44BC3DE842F28AD93CDA9DAADA69CCA2.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-18.40.17:975][  8]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-18.47.45:275][757]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-18.47.46:364][757]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-18.47.46:897][776]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-18.47.49:422][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-18.47.49:506][893]LogSavePackage: Save=48.44ms
-[2017.12.08-18.47.49:506][893]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter08D5AABC4FEA8138EB30E78155D7A20B.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-18.47.49:510][893]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-18.47.59:627][188]LogTemp: Repeating last play command: 선택된 뷰포트
-[2017.12.08-18.47.59:691][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-18.47.59:691][188]PIE: New page: PIE 세션: My2dmap (2017. 12. 9. 오후 12:47:59)
-[2017.12.08-18.47.59:691][188]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
-[2017.12.08-18.47.59:705][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013645s)
-[2017.12.08-18.47.59:706][188]LogAIModule: Creating AISystem for world My2dmap
-[2017.12.08-18.47.59:706][188]LogPlayLevel: PIE: World Init took: (0.000849s)
-[2017.12.08-18.47.59:706][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.014815s)
-[2017.12.08-18.47.59:739][188]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.08-18.47.59:756][188]LogInit: FAudioDevice initialized.
-[2017.12.08-18.47.59:786][188]LogLoad: Game class is 'PaperGameMode_C'
-[2017.12.08-18.47.59:805][188]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 60) at 2017.12.09-03.47.59
-[2017.12.08-18.47.59:806][188]LogWorld: Bringing up level for play took: 0.000957
-[2017.12.08-18.47.59:833][188]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: 0.154
-[2017.12.08-18.48.24:446][664]Set new viewmode: Wireframe
-[2017.12.08-18.48.29:163][944]LogTemp: Repeating last play command: 선택된 뷰포트
-[2017.12.08-18.48.29:174][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-18.48.29:174][944]PIE: New page: PIE 세션: My2dmap (2017. 12. 9. 오후 12:48:29)
-[2017.12.08-18.48.29:174][944]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
-[2017.12.08-18.48.29:176][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001677s)
-[2017.12.08-18.48.29:177][944]LogAIModule: Creating AISystem for world My2dmap
-[2017.12.08-18.48.29:178][944]LogPlayLevel: PIE: World Init took: (0.001510s)
-[2017.12.08-18.48.29:178][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.003698s)
-[2017.12.08-18.48.29:204][944]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.08-18.48.29:221][944]LogInit: FAudioDevice initialized.
-[2017.12.08-18.48.29:253][944]LogLoad: Game class is 'PaperGameMode_C'
-[2017.12.08-18.48.29:254][944]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 60) at 2017.12.09-03.48.29
-[2017.12.08-18.48.29:254][944]LogWorld: Bringing up level for play took: 0.000755
-[2017.12.08-18.48.29:256][944]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: -0.423
-[2017.12.08-18.52.42:545][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.038
-[2017.12.08-18.52.42:550][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-18.52.42:550][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-18.52.42:550][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-18.52.42:628][ 19]LogSavePackage: Save=60.93ms
-[2017.12.08-18.52.42:628][ 19]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto299DE0A664BA0CA538658B8B0F50726BF.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto2.uasset'
-[2017.12.08-18.52.42:633][ 19]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto2.uasset
-[2017.12.08-18.52.42:633][ 19]LogFileHelpers: Auto-saving content packages took 0.085
-[2017.12.08-18.55.39:979][385]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-18.55.50:725][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-18.55.50:781][669]LogSavePackage: Save=40.55ms
-[2017.12.08-18.55.50:781][669]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/MycharacterE630F2DE4A0BD3A3CF871A9CA18BB20B.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-18.55.50:787][669]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-18.55.52:518][767]LogTemp: Repeating last play command: 선택된 뷰포트
-[2017.12.08-18.55.52:529][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-18.55.52:529][767]PIE: New page: PIE 세션: My2dmap (2017. 12. 9. 오후 12:55:52)
-[2017.12.08-18.55.52:529][767]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
-[2017.12.08-18.55.52:530][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000917s)
-[2017.12.08-18.55.52:531][767]LogAIModule: Creating AISystem for world My2dmap
-[2017.12.08-18.55.52:531][767]LogPlayLevel: PIE: World Init took: (0.000873s)
-[2017.12.08-18.55.52:531][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.002016s)
-[2017.12.08-18.55.52:833][767]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.08-18.55.52:866][767]LogInit: FAudioDevice initialized.
-[2017.12.08-18.55.52:906][767]LogLoad: Game class is 'PaperGameMode_C'
-[2017.12.08-18.55.52:908][767]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 60) at 2017.12.09-03.55.52
-[2017.12.08-18.55.52:909][767]LogWorld: Bringing up level for play took: 0.001545
-[2017.12.08-18.55.52:912][767]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: 1.232
-[2017.12.08-18.56.16:029][519]LogTemp: Repeating last play command: 선택된 뷰포트
-[2017.12.08-18.56.16:054][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.08-18.56.16:054][519]PIE: New page: PIE 세션: My2dmap (2017. 12. 9. 오후 12:56:16)
-[2017.12.08-18.56.16:054][519]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
-[2017.12.08-18.56.16:056][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002004s)
-[2017.12.08-18.56.16:057][519]LogAIModule: Creating AISystem for world My2dmap
-[2017.12.08-18.56.16:057][519]LogPlayLevel: PIE: World Init took: (0.001205s)
-[2017.12.08-18.56.16:058][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.003851s)
-[2017.12.08-18.56.16:084][519]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.08-18.56.16:105][519]LogInit: FAudioDevice initialized.
-[2017.12.08-18.56.16:136][519]LogLoad: Game class is 'PaperGameMode_C'
-[2017.12.08-18.56.16:137][519]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 60) at 2017.12.09-03.56.16
-[2017.12.08-18.56.16:138][519]LogWorld: Bringing up level for play took: 0.000767
-[2017.12.08-18.56.16:138][519]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: 0.46
-[2017.12.08-20.44.16:435][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.056
-[2017.12.08-20.44.16:438][578]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-20.44.16:438][578]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-20.44.16:438][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-20.44.16:517][578]LogSavePackage: Save=58.00ms
-[2017.12.08-20.44.16:517][578]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto3BE8E9EEB481C752F6DDC969B298E764D.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto3.uasset'
-[2017.12.08-20.44.16:527][578]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto3.uasset
-[2017.12.08-20.44.16:527][578]LogFileHelpers: Auto-saving content packages took 0.091
-[2017.12.08-20.44.34:471][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-20.44.34:521][869]LogSavePackage: Save=38.66ms
-[2017.12.08-20.44.34:521][869]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter4D2307584481B9D76ED4E8B78F44AF0D.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-20.44.34:528][869]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-20.44.39:771][182]LogContentBrowser: Verbose: The majority of assets in the view are of type: PaperSprite
-[2017.12.08-20.44.41:472][283]LogContentBrowser: Verbose: The majority of assets in the view are of type: Texture2D
-[2017.12.08-20.44.44:504][441]LogSlate: Took 0.000419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.08-20.44.56:618][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/CharacterJumping_Sprite" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/CharacterJumping_Sprite.uasset" SILENT=true
-[2017.12.08-20.44.56:647][101]LogSavePackage: Save=27.71ms
-[2017.12.08-20.44.56:647][101]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/CharacterJumping_SpriteAAE9326A40A02F33E62C95BC3AF73CD9.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/CharacterJumping_Sprite.uasset'
-[2017.12.08-20.44.56:652][101]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/CharacterJumping_Sprite.uasset
-[2017.12.08-20.45.35:259][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Jump_1" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/Jump_1.uasset" SILENT=true
-[2017.12.08-20.45.35:269][  0]LogSavePackage: Save=7.84ms
-[2017.12.08-20.45.35:269][  0]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Jump_16990C8FB42A20861151A8899EA553630.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/Jump_1.uasset'
-[2017.12.08-20.45.35:273][  0]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/Jump_1.uasset
-[2017.12.08-20.45.44:945][161]LogRenderer: Reallocating scene render targets to support 1196x668 Format 10 NumSamples 1 (Frame:1).
-[2017.12.08-20.46.54:506][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Jump_1" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/Jump_1.uasset" SILENT=true
-[2017.12.08-20.46.54:534][806]LogSavePackage: Save=10.31ms
-[2017.12.08-20.46.54:534][806]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Jump_16A6801174F46413D368D13B896F95BF1.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/Jump_1.uasset'
-[2017.12.08-20.46.54:542][806]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Sprites/Jump_1.uasset
-[2017.12.08-20.48.09:255][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/JumpFlipbook" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Flipbooks/JumpFlipbook.uasset" SILENT=true
-[2017.12.08-20.48.09:263][113]LogSavePackage: Save=5.86ms
-[2017.12.08-20.48.09:263][113]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/JumpFlipbook2C03F0CE488A1D8FBA7F88927760536F.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Flipbooks/JumpFlipbook.uasset'
-[2017.12.08-20.48.09:267][113]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Flipbooks/JumpFlipbook.uasset
-[2017.12.08-20.54.16:927][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.028
-[2017.12.08-20.54.16:930][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-20.54.16:930][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-20.54.16:931][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto4.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-20.54.16:997][825]LogSavePackage: Save=48.60ms
-[2017.12.08-20.54.16:997][825]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto40A760C1C4C14563F1DA94892D05C82D8.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto4.uasset'
-[2017.12.08-20.54.17:001][825]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto4.uasset
-[2017.12.08-20.54.17:001][825]LogFileHelpers: Auto-saving content packages took 0.072
-[2017.12.08-21.04.17:189][547]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.028
-[2017.12.08-21.04.17:192][547]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-21.04.17:192][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-21.04.17:192][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-21.04.17:255][547]LogSavePackage: Save=46.44ms
-[2017.12.08-21.04.17:256][547]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto58EDB19E94DDD8C211FFA50B472A4C983.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto5.uasset'
-[2017.12.08-21.04.17:258][547]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto5.uasset
-[2017.12.08-21.04.17:258][547]LogFileHelpers: Auto-saving content packages took 0.068
-[2017.12.08-21.14.17:427][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.028
-[2017.12.08-21.14.17:431][624]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-21.14.17:431][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-21.14.17:431][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-21.14.17:500][624]LogSavePackage: Save=47.75ms
-[2017.12.08-21.14.17:500][624]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto676E43450490E9924E548998396CB8E96.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto6.uasset'
-[2017.12.08-21.14.17:503][624]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto6.uasset
-[2017.12.08-21.14.17:503][624]LogFileHelpers: Auto-saving content packages took 0.075
-[2017.12.08-21.24.46:680][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-21.24.46:750][662]LogSavePackage: Save=51.43ms
-[2017.12.08-21.24.46:750][662]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/MycharacterB55FEA514F0AE22B51189BBD42F16217.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-21.24.46:755][662]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-21.26.12:942][822]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.032
-[2017.12.08-21.26.12:945][822]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-21.26.12:945][822]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-21.26.12:945][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto7.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-21.26.13:004][822]LogSavePackage: Save=42.55ms
-[2017.12.08-21.26.13:004][822]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto77CB717974FFAED7E2AB0859F389E6927.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto7.uasset'
-[2017.12.08-21.26.13:007][822]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto7.uasset
-[2017.12.08-21.26.13:007][822]LogFileHelpers: Auto-saving content packages took 0.065
-[2017.12.08-21.36.59:396][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.029
-[2017.12.08-21.36.59:399][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-21.36.59:399][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-21.36.59:399][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto8.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-21.36.59:470][485]LogSavePackage: Save=55.33ms
-[2017.12.08-21.36.59:470][485]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto802E1B64B4AAAD5721F0F7E965B3BB71E.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto8.uasset'
-[2017.12.08-21.36.59:472][485]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto8.uasset
-[2017.12.08-21.36.59:473][485]LogFileHelpers: Auto-saving content packages took 0.075
-[2017.12.08-21.41.56:889][218]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-21.42.50:805][446]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-21.42.53:194][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-21.42.53:275][571]LogSavePackage: Save=61.25ms
-[2017.12.08-21.42.53:275][571]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter17F7B47F4C3F7519F395BC80DFD30B45.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-21.42.53:280][571]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-22.16.31:615][316]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-22.16.37:120][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.038
-[2017.12.08-22.16.37:123][570]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-22.16.37:124][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-22.16.37:124][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto9.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-22.16.37:229][570]LogSavePackage: Save=72.38ms
-[2017.12.08-22.16.37:229][570]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto93DFA9BBC485EFD2ED296CB97DF8273CF.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto9.uasset'
-[2017.12.08-22.16.37:238][570]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto9.uasset
-[2017.12.08-22.16.37:238][570]LogFileHelpers: Auto-saving content packages took 0.117
-[2017.12.08-22.18.02:111][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-22.18.02:165][919]LogSavePackage: Save=42.84ms
-[2017.12.08-22.18.02:165][919]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/MycharacterD6C0E8AF409B8FE9B335689F26DCD891.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-22.18.02:171][919]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-22.20.17:574][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationState" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Data/AnimationState.uasset" SILENT=true
-[2017.12.08-22.20.17:579][714]LogSavePackage: Save=2.18ms
-[2017.12.08-22.20.17:579][714]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/AnimationStateA42A04A14C33D2A82E25C08A4BBFCF13.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Data/AnimationState.uasset'
-[2017.12.08-22.20.17:585][714]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Data/AnimationState.uasset
-[2017.12.08-22.20.18:246][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationState" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Data/AnimationState.uasset" SILENT=true
-[2017.12.08-22.20.18:261][753]LogSavePackage: Save=2.13ms
-[2017.12.08-22.20.18:261][753]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/AnimationState221DD0484EF82DE33065AE863F81BC54.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Data/AnimationState.uasset'
-[2017.12.08-22.20.18:265][753]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Data/AnimationState.uasset
-[2017.12.08-22.23.18:067][925]BlueprintLog: New page: Mycharacter 컴파일
-[2017.12.08-22.26.43:746][674]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.030
-[2017.12.08-22.26.43:749][674]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-22.26.43:749][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-22.26.43:749][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto0.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-22.26.43:834][674]LogSavePackage: Save=64.17ms
-[2017.12.08-22.26.43:834][674]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto08D7934A44A26D81A745ED685A9786964.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto0.uasset'
-[2017.12.08-22.26.43:836][674]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto0.uasset
-[2017.12.08-22.26.43:836][674]LogFileHelpers: Auto-saving content packages took 0.089
-[2017.12.08-22.36.44:130][560]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.034
-[2017.12.08-22.36.44:133][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-22.36.44:133][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-22.36.44:133][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-22.36.44:221][560]LogSavePackage: Save=70.34ms
-[2017.12.08-22.36.44:221][560]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto1E470930A417F453FF6067BAEF4F3D564.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset'
-[2017.12.08-22.36.44:224][560]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset
-[2017.12.08-22.36.44:224][560]LogFileHelpers: Auto-saving content packages took 0.093
-[2017.12.08-22.39.28:543][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-22.39.28:620][409]LogSavePackage: Save=63.86ms
-[2017.12.08-22.39.28:620][409]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter1403C53546F74C6115A408971AC237A8.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-22.39.28:633][409]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-22.46.44:474][103]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.035
-[2017.12.08-22.46.44:478][103]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
-[2017.12.08-22.46.44:478][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
-[2017.12.08-22.46.44:478][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2017.12.08-22.46.44:570][103]LogSavePackage: Save=72.32ms
-[2017.12.08-22.46.44:570][103]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto245C3D7184B6EBA74350AF6919183357A.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto2.uasset'
-[2017.12.08-22.46.44:573][103]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto2.uasset
-[2017.12.08-22.46.44:573][103]LogFileHelpers: Auto-saving content packages took 0.098
-[2017.12.08-22.49.15:732][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
-[2017.12.08-22.49.15:812][631]LogSavePackage: Save=65.93ms
-[2017.12.08-22.49.15:812][631]LogSavePackage: Moving 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/MycharacterEE9E2FA94438B3168F09049B61F417E7.tmp' to 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
-[2017.12.08-22.49.15:824][631]LogSavePackage: Display: Finished SavePackage C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
-[2017.12.08-22.49.21:163][930]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.12.08-22.49.21:536][931]Cmd: QUIT_EDITOR
-[2017.12.08-22.49.22:485][931]LogExit: Preparing to exit.
-[2017.12.08-22.49.23:846][931]LogExit: Editor shut down
-[2017.12.08-22.49.23:882][931]LogExit: Transaction tracking system shut down
-[2017.12.08-22.49.24:290][931]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.08-22.49.24:290][931]LogDirectoryWatcher: A directory notification for 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/' was aborted.
-[2017.12.08-22.49.24:291][931]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.08-22.49.24:291][931]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2017.12.08-22.49.24:291][931]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2017.12.08-22.49.24:291][931]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.12.08-22.49.24:291][931]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.12.08-22.49.25:612][931]LogExit: Object subsystem successfully closed.
-[2017.12.08-22.49.26:463][931]LogD3D11RHI: Shutdown
-[2017.12.08-22.49.26:477][931]LogD3D11RHI: CleanupD3DDevice
-[2017.12.08-22.49.26:513][931]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.08-22.49.27:741][931]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
-[2017.12.08-22.49.27:741][931]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
-[2017.12.08-22.49.27:741][931]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2017.12.08-22.49.27:741][931]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2017.12.08-22.49.27:741][931]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2017.12.08-22.49.27:760][931]LogDirectoryWatcher: A directory notification for 'D:/UE_4.18/FeaturePacks/' was aborted.
-[2017.12.08-22.49.27:782][931]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2017.12.08-22.49.27:782][931]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2017.12.08-22.49.27:782][931]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2017.12.08-22.49.27:797][931]LogDirectoryWatcher: A directory notification for 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Collections/' was aborted.
-[2017.12.08-22.49.27:797][931]LogDirectoryWatcher: A directory notification for 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Content/Developers/asd/Collections/' was aborted.
-[2017.12.08-22.49.27:797][931]LogDirectoryWatcher: A directory notification for 'C:/Users/asd/Documents/GitHub/paper2dgame/Mypaper/Saved/Collections/' was aborted.
-[2017.12.08-22.49.27:797][931]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2017.12.08-22.49.27:813][931]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2017.12.08-22.49.27:821][931]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2017.12.08-22.49.27:855][931]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2017.12.08-22.49.27:867][931]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2017.12.08-22.49.27:879][931]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2017.12.08-22.49.27:895][931]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2017.12.08-22.49.27:904][931]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2017.12.08-22.49.27:936][931]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2017.12.08-22.49.27:944][931]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2017.12.08-22.49.27:955][931]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2017.12.08-22.49.27:956][931]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2017.12.08-22.49.27:956][931]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2017.12.08-22.49.27:956][931]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2017.12.08-22.49.27:956][931]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2017.12.08-22.49.27:974][931]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2017.12.08-22.49.27:993][931]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2017.12.08-22.49.28:020][931]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2017.12.08-22.49.28:056][931]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2017.12.08-22.49.28:079][931]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2017.12.08-22.49.28:096][931]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2017.12.08-22.49.28:097][931]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2017.12.08-22.49.28:097][931]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2017.12.08-22.49.28:140][931]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2017.12.08-22.49.28:140][931]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2017.12.08-22.49.28:141][931]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2017.12.08-22.49.28:141][931]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2017.12.08-22.49.28:159][931]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2017.12.08-22.49.28:170][931]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2017.12.08-22.49.28:170][931]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2017.12.08-22.49.28:197][931]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2017.12.08-22.49.28:197][931]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2017.12.08-22.49.28:212][931]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2017.12.08-22.49.28:228][931]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2017.12.08-22.49.28:228][931]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2017.12.08-22.49.28:228][931]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2017.12.08-22.49.28:228][931]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2017.12.08-22.49.28:240][931]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2017.12.08-22.49.28:240][931]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2017.12.08-22.49.28:240][931]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2017.12.08-22.49.28:241][931]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2017.12.08-22.49.28:241][931]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2017.12.08-22.49.28:251][931]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2017.12.08-22.49.28:275][931]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2017.12.08-22.49.28:292][931]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2017.12.08-22.49.28:302][931]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2017.12.08-22.49.28:311][931]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2017.12.08-22.49.28:367][931]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2017.12.08-22.49.28:380][931]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2017.12.08-22.49.28:417][931]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2017.12.08-22.49.28:443][931]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2017.12.08-22.49.28:443][931]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2017.12.08-22.49.28:466][931]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2017.12.08-22.49.28:485][931]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2017.12.08-22.49.28:527][931]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2017.12.08-22.49.28:527][931]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2017.12.08-22.49.28:527][931]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2017.12.08-22.49.28:557][931]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2017.12.08-22.49.28:557][931]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2017.12.08-22.49.28:557][931]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2017.12.08-22.49.28:567][931]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2017.12.08-22.49.28:597][931]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2017.12.08-22.49.28:607][931]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2017.12.08-22.49.28:620][931]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2017.12.08-22.49.28:632][931]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2017.12.08-22.49.28:632][931]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2017.12.08-22.49.28:707][931]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2017.12.08-22.49.28:716][931]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2017.12.08-22.49.28:716][931]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2017.12.08-22.49.28:716][931]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2017.12.08-22.49.28:725][931]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2017.12.08-22.49.28:735][931]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2017.12.08-22.49.28:735][931]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2017.12.08-22.49.28:735][931]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2017.12.08-22.49.28:750][931]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2017.12.08-22.49.28:750][931]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2017.12.08-22.49.28:750][931]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2017.12.08-22.49.28:750][931]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2017.12.08-22.49.28:792][931]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2017.12.08-22.49.28:792][931]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2017.12.08-22.49.28:792][931]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2017.12.08-22.49.28:792][931]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2017.12.08-22.49.28:803][931]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2017.12.08-22.49.28:803][931]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2017.12.08-22.49.28:822][931]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2017.12.08-22.49.28:822][931]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2017.12.08-22.49.28:822][931]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2017.12.08-22.49.28:851][931]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2017.12.08-22.49.28:865][931]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2017.12.08-22.49.28:865][931]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2017.12.08-22.49.28:865][931]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2017.12.08-22.49.28:865][931]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2017.12.08-22.49.28:882][931]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2017.12.08-22.49.28:901][931]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2017.12.08-22.49.28:915][931]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2017.12.08-22.49.28:926][931]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2017.12.08-22.49.28:926][931]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2017.12.08-22.49.28:926][931]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2017.12.08-22.49.28:926][931]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2017.12.08-22.49.28:926][931]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2017.12.08-22.49.28:935][931]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2017.12.08-22.49.28:945][931]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2017.12.08-22.49.28:954][931]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2017.12.08-22.49.28:954][931]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2017.12.08-22.49.28:984][931]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2017.12.08-22.49.28:984][931]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2017.12.08-22.49.28:984][931]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2017.12.08-22.49.28:984][931]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2017.12.08-22.49.28:985][931]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2017.12.08-22.49.28:985][931]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2017.12.08-22.49.28:985][931]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2017.12.08-22.49.28:993][931]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2017.12.08-22.49.29:101][931]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2017.12.08-22.49.29:217][931]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2017.12.08-22.49.29:227][931]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2017.12.08-22.49.29:228][931]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2017.12.08-22.49.29:228][931]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2017.12.08-22.49.29:238][931]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2017.12.08-22.49.29:238][931]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2017.12.08-22.49.29:242][931]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2017.12.08-22.49.29:242][931]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2017.12.08-22.49.29:253][931]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2017.12.08-22.49.29:269][931]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2017.12.08-22.49.29:276][931]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2017.12.08-22.49.29:276][931]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2017.12.08-22.49.29:277][931]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2017.12.08-22.49.29:277][931]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2017.12.08-22.49.29:286][931]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2017.12.08-22.49.29:286][931]LogModuleManager: Shutting down and abandoning module Media (221)
-[2017.12.08-22.49.29:293][931]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2017.12.08-22.49.29:293][931]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2017.12.08-22.49.29:293][931]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2017.12.08-22.49.29:305][931]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2017.12.08-22.49.29:320][931]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2017.12.08-22.49.29:321][931]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2017.12.08-22.49.29:382][931]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2017.12.08-22.49.29:391][931]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2017.12.08-22.49.29:402][931]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2017.12.08-22.49.29:402][931]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2017.12.08-22.49.29:414][931]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2017.12.08-22.49.29:450][931]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2017.12.08-22.49.29:499][931]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2017.12.08-22.49.29:499][931]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2017.12.08-22.49.29:549][931]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2017.12.08-22.49.29:549][931]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2017.12.08-22.49.29:558][931]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2017.12.08-22.49.29:558][931]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2017.12.08-22.49.29:558][931]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2017.12.08-22.49.29:558][931]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2017.12.08-22.49.29:558][931]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2017.12.08-22.49.29:558][931]LogModuleManager: Shutting down and abandoning module Core (172)
-[2017.12.08-22.49.29:558][931]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2017.12.08-22.49.29:567][931]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2017.12.08-22.49.29:573][931]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.12.08-22.49.29:573][931]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.12.08-22.49.29:595][931]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.12.08-22.49.29:605][931]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.12.08-22.49.29:605][931]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.12.08-22.49.29:615][931]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.12.08-22.49.29:615][931]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.12.08-22.49.29:619][931]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.12.08-22.49.29:633][931]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2017.12.08-22.49.29:724][931]LogDerivedDataCache: Shutdown
-[2017.12.08-22.49.29:724][931]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2017.12.08-22.49.29:724][931]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2017.12.08-22.49.29:735][931]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2017.12.08-22.49.29:739][931]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2017.12.08-22.49.29:754][931]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2017.12.08-22.49.29:758][931]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2017.12.08-22.49.29:772][931]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2017.12.08-22.49.29:772][931]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2017.12.08-22.49.29:772][931]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2017.12.08-22.49.29:783][931]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.12.08-22.49.29:792][931]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2017.12.08-22.49.29:793][931]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2017.12.08-22.49.29:801][931]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2017.12.08-22.49.29:801][931]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2017.12.08-22.49.29:801][931]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2017.12.08-22.49.29:801][931]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.08-22.49.29:801][931]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.08-22.49.29:825][931]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.08-22.49.29:854][931]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.08-22.49.29:854][931]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2017.12.08-22.49.29:867][931]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA856E108-4C3A-8B48-CE52-FAB62F422AAC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=d39b89a8461c101e095afc80a7a5cfcc%7C78f13b57c3fb4f3c840dd973fda0e920%7C4d4286b0-c88b-4ab9-b2b9-a6cd7ca99694&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.08-22.49.29:867][931]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA856E108-4C3A-8B48-CE52-FAB62F422AAC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=d39b89a8461c101e095afc80a7a5cfcc%7C78f13b57c3fb4f3c840dd973fda0e920%7C4d4286b0-c88b-4ab9-b2b9-a6cd7ca99694&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.08-22.49.29:874][931]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.08-22.49.29:895][931]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.08-22.49.29:907][931]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.08-22.49.29:907][931]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.08-22.49.29:926][931]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.08-22.49.29:946][931]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.08-22.49.29:946][931]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.08-22.49.29:946][931]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.08-22.49.29:974][931]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.08-22.49.30:004][931]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.08-22.49.30:004][931]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.08-22.49.30:023][931]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.08-22.49.30:023][931]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.08-22.49.30:023][931]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.08-22.49.30:023][931]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.08-22.49.30:031][931]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.08-22.49.30:031][931]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.08-22.49.30:042][931]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.08-22.49.30:056][931]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.08-22.49.30:076][931]LogExit: Exiting.
-[2017.12.08-22.49.30:104][931]Log file closed, 12/09/17 07:49:30
+[2017.12.09-09.19.10:615][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-09.19.10:615][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.09-09.19.10:625][  0]LogInit: Computer: DESKTOP-CU9JKOV
+[2017.12.09-09.19.10:625][  0]LogInit: User: eowls
+[2017.12.09-09.19.10:625][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.09-09.19.10:625][  0]LogInit: High frequency timer resolution =3.234374 MHz
+[2017.12.09-09.19.10:626][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.09-09.19.10:626][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.09-09.19.10:626][  0]LogMemory: Process Physical Memory: 271.40 MB used, 271.40 MB peak
+[2017.12.09-09.19.10:626][  0]LogMemory: Process Virtual Memory: 263.52 MB used, 263.52 MB peak
+[2017.12.09-09.19.10:626][  0]LogMemory: Physical Memory: 6563.29 MB used,  9768.64 MB free, 16331.93 MB total
+[2017.12.09-09.19.10:626][  0]LogMemory: Virtual Memory: 622.66 MB used,  9768.64 MB free, 134217728.00 MB total
+[2017.12.09-09.19.10:792][  0]LogInit: Using OS detected language (ko-KR).
+[2017.12.09-09.19.10:793][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.12.09-09.19.10:796][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.12.09-09.19.10:960][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.09-09.19.11:266][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.09-09.19.11:313][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.12.09-09.19.11:313][  0]LogD3D11RHI:       4058/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.09-09.19.11:315][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.09-09.19.11:315][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.09-09.19.11:315][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.09-09.19.11:320][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.09-09.19.11:320][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.09-09.19.11:320][  0]LogWindows: EnumDisplayDevices:
+[2017.12.09-09.19.11:320][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.12.09-09.19.11:321][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.09-09.19.11:321][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.09-09.19.11:321][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.12.09-09.19.11:322][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.09-09.19.11:322][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.12.09-09.19.11:322][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.09-09.19.11:322][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.09-09.19.11:322][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2017.12.09-09.19.11:355][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.09-09.19.11:365][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.09-09.19.11:414][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Intermediate/Shaders/WorkingDirectory/8880/).
+[2017.12.09-09.19.11:414][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/eowls/AppData/Local/Temp/UnrealShaderWorkingDir/452D47F74CFF4B5C734D949C258D8F31/'.
+[2017.12.09-09.19.11:414][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.09-09.19.12:305][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.09-09.19.12:364][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.09-09.19.12:422][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.09-09.19.12:483][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.09-09.19.12:543][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.09-09.19.12:602][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.09-09.19.12:662][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.09-09.19.12:721][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.09-09.19.12:775][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.09-09.19.12:834][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.09-09.19.12:892][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.09-09.19.12:952][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.09-09.19.13:014][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.09-09.19.13:077][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.09-09.19.13:194][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.09-09.19.13:194][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.09-09.19.13:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.09-09.19.13:308][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.09-09.19.13:417][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.09-09.19.13:447][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.09-09.19.13:510][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.09-09.19.13:574][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.09-09.19.13:633][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.09-09.19.13:691][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.09-09.19.13:691][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.09-09.19.14:232][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.09-09.19.14:305][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/eowls/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.09-09.19.14:305][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/eowls/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.09-09.19.14:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.09-09.19.14:305][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.09-09.19.14:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.09-09.19.14:305][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.09-09.19.14:319][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.09-09.19.14:332][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eowls/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.09-09.19.14:342][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.09-09.19.14:342][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.09-09.19.14:342][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-09.19.14:342][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-09.19.14:719][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-09.19.15:104][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.09-09.19.15:156][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.09-09.19.15:156][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.09-09.19.15:156][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.09-09.19.15:156][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.09-09.19.15:156][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.09-09.19.15:193][  0]LogNetVersion: Mypaper , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1259759705)
+[2017.12.09-09.19.15:379][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2017.12.09-09.19.16:108][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.124882 seconds
+[2017.12.09-09.19.16:116][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.09-09.19.16:116][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.12.09-09.19.16:116][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.09-09.19.16:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.09-09.19.19:341][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.09-09.19.19:390][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.09-09.19.20:219][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.09-09.19.20:728][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.09-09.19.20:728][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.09-09.19.20:798][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.09-09.19.20:866][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.09-09.19.21:907][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.09-09.19.22:253][  0]LogOcInput: OculusInput pre-init called
+[2017.12.09-09.19.22:602][  0]LogEngine: Initializing Engine...
+[2017.12.09-09.19.22:605][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.09-09.19.22:809][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.09-09.19.22:810][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.09-09.19.22:969][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.09-09.19.22:995][  0]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-09.19.23:033][  0]LogInit: FAudioDevice initialized.
+[2017.12.09-09.19.23:105][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/eowls/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.09-09.19.23:116][  0]LogInit: Texture streaming: Enabled
+[2017.12.09-09.19.23:228][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.09-09.19.23:388][  0]LogInit: Transaction tracking system initialized
+[2017.12.09-09.19.23:774][  0]BlueprintLog: New page: 에디터 로드
+[2017.12.09-09.19.24:871][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.12.09-09.19.25:788][  0]LogConsoleResponse: Display: 
+[2017.12.09-09.19.25:983][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.09-09.19.25:983][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.09-09.19.25:983][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.09-09.19.26:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/' took 0.01s
+[2017.12.09-09.19.27:531][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.12.09-09.19.27:531][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.09-09.19.27:532][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.09-09.19.27:584][  0]MapCheck: New page: 맵 체크
+[2017.12.09-09.19.27:584][  0]LightingResults: New page: 라이팅 빌드
+[2017.12.09-09.19.27:621][  0]LogAIModule: Creating AISystem for world My2dmap
+[2017.12.09-09.19.27:628][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.09-09.19.27:637][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.09-09.19.27:714][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 76.474ms.
+[2017.12.09-09.19.27:714][  0]LogFileHelpers: Loading map 'My2dmap' took 0.183
+[2017.12.09-09.19.27:933][  0]LogCollectionManager: Loaded 0 collections in 0.001853 seconds
+[2017.12.09-09.19.28:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Collections/' took 0.01s
+[2017.12.09-09.19.28:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Developers/eowls/Collections/' took 0.01s
+[2017.12.09-09.19.28:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Collections/' took 0.01s
+[2017.12.09-09.19.28:045][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.09-09.19.28:055][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2363 classes and 519 folders.
+[2017.12.09-09.19.28:141][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.09-09.19.28:257][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.09-09.19.28:318][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.09-09.19.28:375][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-09.19.28:381][  0]LogSlate: Took 0.003951 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.12.09-09.19.28:381][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.09-09.19.28:390][  0]LogSlate: Took 0.001224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.09-09.19.28:496][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.09-09.19.28:559][  0]LogSlate: Took 0.001119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-09.19.28:699][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.09-09.19.28:699][  0]LogLoad: (Engine Initialization) Total time: 20.96 seconds
+[2017.12.09-09.19.28:699][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.09-09.19.28:699][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.09-09.19.29:061][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.09-09.19.29:380][  1]LogAssetRegistry: Asset discovery search completed in 14.0231 seconds
+[2017.12.09-09.19.29:382][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.09-09.19.29:382][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.12.09-09.20.33:349][498]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.12.09-09.20.33:653][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-09.20.33:655][498]PIE: New page: PIE 세션: My2dmap (2017. 12. 10. 오전 3:20:33)
+[2017.12.09-09.20.33:656][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
+[2017.12.09-09.20.33:658][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001884s)
+[2017.12.09-09.20.33:658][498]LogAIModule: Creating AISystem for world My2dmap
+[2017.12.09-09.20.33:659][498]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2017.12.09-09.20.33:660][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.003751s)
+[2017.12.09-09.20.33:698][498]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-09.20.33:733][498]LogInit: FAudioDevice initialized.
+[2017.12.09-09.20.33:960][498]LogTexture: Display: 텍스처 빌드: CharacterJumping (AutoDXT, 256X256)
+[2017.12.09-09.20.33:960][498]LogLoad: Game class is 'PaperGameMode_C'
+[2017.12.09-09.20.33:967][498]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 0) at 2017.12.09-18.20.33
+[2017.12.09-09.20.33:971][498]LogWorld: Bringing up level for play took: 0.004140
+[2017.12.09-09.20.34:033][498]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2017.12.09-09.20.34:041][498]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: 1.134
+[2017.12.09-09.20.48:886][258]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-09.20.48:889][258]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.09-09.20.49:976][375]LogActorFactory: Actor Factory created Sphere
+[2017.12.09-09.20.56:075][ 63]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.12.09-09.20.56:087][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-09.20.56:087][ 63]PIE: New page: PIE 세션: My2dmap (2017. 12. 10. 오전 3:20:56)
+[2017.12.09-09.20.56:087][ 63]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
+[2017.12.09-09.20.56:088][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000960s)
+[2017.12.09-09.20.56:089][ 63]LogAIModule: Creating AISystem for world My2dmap
+[2017.12.09-09.20.56:090][ 63]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.12.09-09.20.56:090][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.001748s)
+[2017.12.09-09.20.56:124][ 63]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-09.20.56:137][ 63]LogInit: FAudioDevice initialized.
+[2017.12.09-09.20.56:172][ 63]LogLoad: Game class is 'PaperGameMode_C'
+[2017.12.09-09.20.56:173][ 63]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 0) at 2017.12.09-18.20.56
+[2017.12.09-09.20.56:173][ 63]LogWorld: Bringing up level for play took: 0.000762
+[2017.12.09-09.20.56:174][ 63]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: -0.733
+[2017.12.09-09.20.59:532][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.12.09-09.21.00:375][550]LogSlate: Took 0.001100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.09-09.21.04:543][ 47]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.12.09-09.21.04:557][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-09.21.04:557][ 47]PIE: New page: PIE 세션: My2dmap (2017. 12. 10. 오전 3:21:04)
+[2017.12.09-09.21.04:557][ 47]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
+[2017.12.09-09.21.04:558][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000852s)
+[2017.12.09-09.21.04:559][ 47]LogAIModule: Creating AISystem for world My2dmap
+[2017.12.09-09.21.04:559][ 47]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2017.12.09-09.21.04:559][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.001633s)
+[2017.12.09-09.21.04:590][ 47]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-09.21.04:602][ 47]LogInit: FAudioDevice initialized.
+[2017.12.09-09.21.04:632][ 47]LogLoad: Game class is 'PaperGameMode_C'
+[2017.12.09-09.21.04:633][ 47]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 0) at 2017.12.09-18.21.04
+[2017.12.09-09.21.04:633][ 47]LogWorld: Bringing up level for play took: 0.000648
+[2017.12.09-09.21.04:634][ 47]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: -0.273
+[2017.12.09-09.21.13:879][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.12.09-09.21.14:408][209]Cmd: DELETE
+[2017.12.09-09.21.14:408][209]Cmd: ACTOR DELETE
+[2017.12.09-09.21.14:422][209]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.09-09.21.14:430][209]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.12.09-09.21.17:900][621]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-09.21.17:997][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2dmap" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.09-09.21.18:057][621]LogSavePackage: Save=19.78ms
+[2017.12.09-09.21.18:057][621]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/My2dmap655DC6CD4E44B90FC2FE5385A2505BD9.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap'
+[2017.12.09-09.21.18:064][621]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/My2dmap.umap
+[2017.12.09-09.21.18:086][621]LogFileHelpers: Saving map 'My2dmap' took 0.176
+[2017.12.09-09.46.44:261][755]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2017.12.09-09.46.44:854][755]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.12.09-09.46.44:876][755]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-09.46.44:904][755]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2017.12.09-09.46.45:000][755]LogSlate: Took 0.000948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.09-09.47.16:326][309]BlueprintLog: New page: Mycharacter 컴파일
+[2017.12.09-09.47.33:128][858]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.12.09-09.47.33:145][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-09.47.33:145][858]PIE: New page: PIE 세션: My2dmap (2017. 12. 10. 오전 3:47:33)
+[2017.12.09-09.47.33:145][858]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
+[2017.12.09-09.47.33:146][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000974s)
+[2017.12.09-09.47.33:147][858]LogAIModule: Creating AISystem for world My2dmap
+[2017.12.09-09.47.33:147][858]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2017.12.09-09.47.33:147][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.001713s)
+[2017.12.09-09.47.33:183][858]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-09.47.33:196][858]LogInit: FAudioDevice initialized.
+[2017.12.09-09.47.33:227][858]LogLoad: Game class is 'PaperGameMode_C'
+[2017.12.09-09.47.33:229][858]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 0) at 2017.12.09-18.47.33
+[2017.12.09-09.47.33:229][858]LogWorld: Bringing up level for play took: 0.000646
+[2017.12.09-09.47.33:230][858]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: 0.323
+[2017.12.09-09.48.00:119][320]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-09.48.09:138][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2dmap' took 0.015
+[2017.12.09-09.48.09:142][347]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mycharacter] ([1] browsable assets)...
+[2017.12.09-09.48.09:142][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mycharacter]
+[2017.12.09-09.48.09:241][347]LogSavePackage: Save=76.01ms
+[2017.12.09-09.48.09:241][347]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Mycharacter_Auto1D013CDDF4B19503A37E26286FAF3130D.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset'
+[2017.12.09-09.48.09:269][347]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Autosaves/Game/Blueprints/Mycharacter_Auto1.uasset
+[2017.12.09-09.48.09:269][347]LogFileHelpers: Auto-saving content packages took 0.130
+[2017.12.09-09.50.29:589][917]LogEditorTransaction: Undo 노드 이동
+[2017.12.09-09.51.41:787][803]BlueprintLog: New page: Mycharacter 컴파일
+[2017.12.09-09.55.18:314][910]BlueprintLog: New page: Mycharacter 컴파일
+[2017.12.09-09.55.18:915][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
+[2017.12.09-09.55.19:010][949]LogSavePackage: Save=75.73ms
+[2017.12.09-09.55.19:010][949]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/MycharacterD593C59B436B60B1CC96038082F7CB43.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
+[2017.12.09-09.55.19:018][949]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
+[2017.12.09-09.56.33:904][114]BlueprintLog: New page: Mycharacter 컴파일
+[2017.12.09-09.56.35:361][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
+[2017.12.09-09.56.35:457][251]LogSavePackage: Save=79.24ms
+[2017.12.09-09.56.35:457][251]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Mycharacter196C10B04ABABF6D39FE6B9FBED7C758.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
+[2017.12.09-09.56.35:465][251]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
+[2017.12.09-09.56.37:481][458]BlueprintLog: New page: Mycharacter 컴파일
+[2017.12.09-09.56.38:121][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mycharacter" FILE="../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset" SILENT=true
+[2017.12.09-09.56.38:218][499]LogSavePackage: Save=78.67ms
+[2017.12.09-09.56.38:218][499]LogSavePackage: Moving '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Mycharacter33080DAD42DA9F6BC8DD719603CB0E4B.tmp' to '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset'
+[2017.12.09-09.56.38:222][499]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Blueprints/Mycharacter.uasset
+[2017.12.09-09.56.59:218][427]LogTemp: Repeating last play command: 선택된 뷰포트
+[2017.12.09-09.56.59:231][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.09-09.56.59:231][427]PIE: New page: PIE 세션: My2dmap (2017. 12. 10. 오전 3:56:59)
+[2017.12.09-09.56.59:231][427]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2dmap
+[2017.12.09-09.56.59:232][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000892s)
+[2017.12.09-09.56.59:233][427]LogAIModule: Creating AISystem for world My2dmap
+[2017.12.09-09.56.59:233][427]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.12.09-09.56.59:233][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2dmap.My2dmap to /Game/UEDPIE_0_My2dmap.My2dmap (0.001770s)
+[2017.12.09-09.56.59:273][427]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-09.56.59:288][427]LogInit: FAudioDevice initialized.
+[2017.12.09-09.56.59:320][427]LogLoad: Game class is 'PaperGameMode_C'
+[2017.12.09-09.56.59:321][427]LogWorld: Bringing World /Game/UEDPIE_0_My2dmap.My2dmap up for play (max tick rate 0) at 2017.12.09-18.56.59
+[2017.12.09-09.56.59:321][427]LogWorld: Bringing up level for play took: 0.000709
+[2017.12.09-09.56.59:323][427]PIE: /Game/UEDPIE_0_My2dmap 에 대한 에디터에서 플레이 시작 시간: 0.415
+[2017.12.09-10.02.20:455][ 40]Cmd: QUIT_EDITOR
+[2017.12.09-10.02.20:828][ 40]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.12.09-10.02.20:840][ 40]LogExit: Preparing to exit.
+[2017.12.09-10.02.21:295][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/' was aborted.
+[2017.12.09-10.02.21:322][ 40]LogExit: Editor shut down
+[2017.12.09-10.02.21:330][ 40]LogExit: Transaction tracking system shut down
+[2017.12.09-10.02.21:568][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.09-10.02.21:568][ 40]LogDirectoryWatcher: A directory notification for '../../../../../../Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/' was aborted.
+[2017.12.09-10.02.21:569][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.09-10.02.21:569][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.12.09-10.02.21:569][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.12.09-10.02.21:569][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.09-10.02.21:569][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.09-10.02.21:631][ 40]LogExit: Object subsystem successfully closed.
+[2017.12.09-10.02.21:646][ 40]LogD3D11RHI: Shutdown
+[2017.12.09-10.02.21:646][ 40]LogD3D11RHI: CleanupD3DDevice
+[2017.12.09-10.02.21:649][ 40]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.09-10.02.21:677][ 40]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2017.12.09-10.02.21:677][ 40]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2017.12.09-10.02.21:677][ 40]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.12.09-10.02.21:677][ 40]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2017.12.09-10.02.21:677][ 40]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.12.09-10.02.21:678][ 40]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.12.09-10.02.21:679][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Collections/' was aborted.
+[2017.12.09-10.02.21:679][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Content/Developers/eowls/Collections/' was aborted.
+[2017.12.09-10.02.21:679][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/eowls/OneDrive/문서/GitHub/paper2dgame/Mypaper/Saved/Collections/' was aborted.
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.12.09-10.02.21:679][ 40]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.12.09-10.02.21:680][ 40]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.12.09-10.02.22:366][ 40]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.12.09-10.02.22:367][ 40]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.12.09-10.02.22:420][ 40]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.12.09-10.02.22:425][ 40]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.12.09-10.02.22:472][ 40]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.12.09-10.02.22:473][ 40]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.12.09-10.02.22:474][ 40]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.12.09-10.02.22:575][ 40]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.12.09-10.02.22:676][ 40]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.12.09-10.02.22:676][ 40]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.12.09-10.02.22:676][ 40]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.12.09-10.02.22:676][ 40]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.12.09-10.02.22:676][ 40]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.12.09-10.02.22:677][ 40]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.12.09-10.02.22:677][ 40]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.12.09-10.02.22:677][ 40]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.12.09-10.02.22:677][ 40]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.12.09-10.02.22:677][ 40]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.12.09-10.02.22:678][ 40]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.12.09-10.02.22:678][ 40]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.12.09-10.02.22:678][ 40]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.12.09-10.02.22:678][ 40]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.12.09-10.02.22:678][ 40]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.12.09-10.02.22:678][ 40]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.12.09-10.02.22:684][ 40]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.12.09-10.02.22:687][ 40]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.12.09-10.02.22:688][ 40]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.12.09-10.02.22:751][ 40]LogDerivedDataCache: Shutdown
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.12.09-10.02.22:751][ 40]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.09-10.02.22:752][ 40]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.09-10.02.22:752][ 40]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.09-10.02.22:752][ 40]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B29DC345B-4493-6306-B20B-AF92140A2A1E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=3ff6509e45a8c6c1cf288398d0c6e11d%7C78f13b57c3fb4f3c840dd973fda0e920%7C0b604f14-8e80-4b87-a522-a4f4ad57cadf&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.09-10.02.22:784][ 40]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.09-10.02.22:785][ 40]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.09-10.02.22:785][ 40]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.09-10.02.22:785][ 40]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.09-10.02.22:785][ 40]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.09-10.02.22:785][ 40]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.09-10.02.22:785][ 40]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.09-10.02.22:786][ 40]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.09-10.02.22:788][ 40]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.09-10.02.22:791][ 40]LogExit: Exiting.
+[2017.12.09-10.02.22:802][ 40]Log file closed, 12/09/17 19:02:22
